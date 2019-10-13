@@ -1,0 +1,23 @@
+.resume {
+  text-align: left;
+  width: 60%;
+  padding:  3vh 3vw;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover {
+  color: gray;
+  opacity: .3;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#download {
+  border: 5px solid white;
+  padding: 5px;
+  text-decoration: none;
+}

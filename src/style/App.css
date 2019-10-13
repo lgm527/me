@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  grid-template-rows: repeat(1, 50px);
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+
+.App-header > div {
+  padding: 1vh 1vw;
+  cursor: pointer;
+}
+
+.App-header > div:hover {
+  color: gray;
+  opacity: .3;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#allMe, .social {
+  text-align: right;
+  margin-right: 1vw;
+  float: right;
+}
+
+.social > a {
+  padding: .5em;
+}
+
+.name, .name:hover {
+  font-size: 10vmin;
+  cursor: default;
+  color: white;
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#title, #title:hover {
+  font-size: calc(5px + 2vmin);
+  cursor: default;
+  color: white;
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#copy {
+  font-size: .7em;
+}
+
+.stuff {
+  min-height: 50vh;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+  align-content: right;
+  bottom: 0;
+  right: 3em;
+  position: fixed;
+  width: 50%;
+}
+
+.App-footer > a {
+  padding: 3vw .5vw;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+}
+
+.App-footer > a:hover {
+  opacity: .5;
+}
