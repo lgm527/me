@@ -37,8 +37,6 @@ class Contact extends React.Component {
 
 
   render(){
-
-    console.log(process.env.REACT_APP_EMAIL_JS_ID);
     return (
       <div className="contact_container">
 
