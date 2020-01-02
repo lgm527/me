@@ -56,7 +56,7 @@ class App extends React.Component {
           <h2 id='title'>Full Stack Developer</h2>
           <h1 className='name'>Laurell</h1>
           <h1 className='name'>McCaffrey</h1>
-          <p id='copy'>© Laurell McCaffrey 2019</p>
+          <p id='copy'>© Laurell McCaffrey 2020</p>
         </div>
 
         </footer>

@@ -1,13 +1,14 @@
 import React from 'react';
 import './style/Resume.css';
-import resume from './assets/McCaffrey_Resume.pdf'
+import resume from './assets/Laurell_McCaffrey_Resume.pdf';
 
 class Resume extends React.Component {
 
   render(){
     return (
       <div className='resume'>
-      <h1><a id='download' href={resume} download>Download</a></h1>
+      <h1><a id='download' href={resume} download>Download PDF</a></h1>
+      <br></br>
       <h2>TECHNICAL PROJECTS</h2>
       <p>
       <b>TreeTrends</b> - <a href='https://github.com/lgm527/treetrends-client'>Github (Client)</a> | <a href='https://github.com/lgm527/treetrends-API'>Github (API)</a> | <a href='https://www.youtube.com/watch?v=rEuIcwjCHzc&feature=youtu.be'>Demo</a>
@@ -49,7 +50,7 @@ class Resume extends React.Component {
       </p>
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      JavaScript, React, Redux, Ruby, Rails, SQL, PostgreSQL, HTML, CSS, SASS,
+      JavaScript, React, React Native, Ruby, Rails, SQL, PostgreSQL, HTML, CSS,
       <br></br>
       Flatiron School Immersive Software Engineering Program
       <br></br><br></br>
@@ -89,7 +90,7 @@ class Resume extends React.Component {
       </p>
       <h2>EDUCATION</h2>
       <p>
-      <b>Flatiron School</b> - 2019
+      <b>Flatiron School</b> - Brooklyn, New York - 2019
       <br></br>
       + Immersive Full Stack Web Development, Ruby on Rails and JavaScript program
       <br></br><br></br>
@@ -97,8 +98,16 @@ class Resume extends React.Component {
       <br></br>
       + Bachelor of Arts degree in Art History, Bachelor of Arts degree in Psychology
       <br></br>
-      + Art History Graduation Ceremony Speaker, 3.4 GPA</p>
-
+      + Art History Graduation Ceremony Speaker, 3.4 GPA
+      </p>
+      <h2>VOLUNTEER</h2>
+      <p>
+      <b>Fraunces Tavern Museum</b> - New York, New York
+      <br></br>
+      Docent, 2016 - Present
+      <br></br>
+      + Develop, lead, and engage visitors in the rich history of New York City during the Revolution
+      </p>
 
       </div>
     )
