@@ -4,6 +4,8 @@ import art from './assets/artstagram.png';
 import gitjobs from './assets/gitjobs.png';
 import tre from './assets/tretre.png';
 import cfs from './assets/cfs.png';
+import dad from './assets/dad.png';
+import calc from './assets/calc.png';
 
 class Work extends React.Component {
 
@@ -55,6 +57,22 @@ class Work extends React.Component {
         github: ['https://github.com/lgm527/connectforsuccess/tree/laurell'],
         img: cfs
       })
+    } else if (project === 'dad') {
+      this.setState({
+        name: 'Dad Jokes Please',
+        description: 'A React Native App that brings Dad Jokes straight to your phone! What more could you ask for?',
+        demo: 'https://expo.io/@lgm527/dad-jokes-please',
+        github: ['https://github.com/lgm527/dadjokesplease'],
+        img: dad
+      })
+    } else if (project === 'calc') {
+      this.setState({
+        name: 'Spooky Calculator',
+        description: 'A calculator with a spooky twist for Halloween.',
+        demo: 'https://lgm527.github.io/calc/',
+        github: ['https://github.com/lgm527/calc'],
+        img: calc
+      })
     }
     this.setState({show: true})
   }
@@ -84,18 +102,26 @@ class Work extends React.Component {
           </div>
 
           <div>
-            <img src={gitjobs} alt='git' onClick={() => {this.handleClick('git')}}/>
+            <img id='dad' src={dad} alt='dad jokes' onClick={() => {this.handleClick('dad')}}/>
           </div>
 
           <div>
-            <img src={art} alt='art' onClick={() => {this.handleClick('art')}}/>
+            <img id='calc' src={calc} alt='calculator' onClick={() => {this.handleClick('calc')}}/>
           </div>
 
           <div>
-            <img src={cfs} alt='cfs' onClick={() => {this.handleClick('cfs')}}/>
+            <img id='git' src={gitjobs} alt='git' onClick={() => {this.handleClick('git')}}/>
+          </div>
+
+          <div>
+            <img id='art' src={art} alt='art' onClick={() => {this.handleClick('art')}}/>
+          </div>
+
+          <div>
+            <img id='cfs' src={cfs} alt='cfs' onClick={() => {this.handleClick('cfs')}}/>
           </div>
         </div>
-    }
+      }
 
       </div>
     )

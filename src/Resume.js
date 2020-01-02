@@ -7,7 +7,8 @@ class Resume extends React.Component {
   render(){
     return (
       <div className='resume'>
-      <h1><a id='download' href={resume} download>Download PDF</a></h1>
+
+      <h1><a id='download' href={resume} download>Download</a></h1>
       <br></br>
       <h2>TECHNICAL PROJECTS</h2>
       <p>
@@ -108,6 +109,9 @@ class Resume extends React.Component {
       <br></br>
       + Develop, lead, and engage visitors in the rich history of New York City during the Revolution
       </p>
+
+      <br></br>
+      <h1><a id='download' href='https://github.com/lgm527/resume.json/blob/master/LGMresume.json' download>View JSON</a></h1>
 
       </div>
     )
