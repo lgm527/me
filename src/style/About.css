@@ -3,6 +3,7 @@
   height: 28%;
   float: left;
   margin: 1vh 4vw;
+  border-radius: 50%;
   filter: none;
   -webkit-filter: grayscale(0%);
 }

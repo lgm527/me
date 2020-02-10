@@ -5,9 +5,19 @@
 .projects {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: repeat(1, 100px);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(1, 300px);
   margin: 10vh 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .projects {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-rows: repeat(3, 80px);
+    margin: 10vh 0;
+  }
 }
 
 .projects > div > img  {

@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1d1e1e;
   min-height: 10vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));

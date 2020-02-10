@@ -6,6 +6,8 @@ import tre from './assets/tretre.png';
 import cfs from './assets/cfs.png';
 import dad from './assets/dad.png';
 import calc from './assets/calc.png';
+import ttm from './assets/tretremobile.png';
+import gwm from './assets/gwmobileview.png';
 
 class Work extends React.Component {
 
@@ -32,6 +34,14 @@ class Work extends React.Component {
         demo: 'https://www.youtube.com/watch?v=rEuIcwjCHzc&feature=youtu.be',
         github: ['https://github.com/lgm527/treetrends-client', 'https://github.com/lgm527/treetrends-API'],
         img: tre
+      })
+    } else if (project === 'treemobile') {
+      this.setState({
+        name: 'TreeTrends Mobile',
+        description: 'Users can locate trees on the NYC streets near them for stewardship opportunities on their mobile device and share a tree\'s information via text, email, or launching the maps application.',
+        demo: 'https://expo.io/@lgm527/tree_trends',
+        github: ['https://github.com/lgm527/tree_trends_onthego'],
+        img: ttm
       })
     } else if (project === 'git') {
       this.setState({
@@ -73,6 +83,14 @@ class Work extends React.Component {
         github: ['https://github.com/lgm527/calc'],
         img: calc
       })
+    } else if (project === 'gw') {
+      this.setState({
+        name: 'George Washington Tour at Fraunces Tavern Museum',
+        description: 'Users can browse a tour focusing on George Washington and his relationship with the Nation\'s first capital, New York City.',
+        demo: 'https://lgm527.github.io/gw_ftm_tour/',
+        github: ['https://github.com/lgm527/gw_ftm_tour'],
+        img: gwm
+      })
     }
     this.setState({show: true})
   }
@@ -102,6 +120,10 @@ class Work extends React.Component {
           </div>
 
           <div>
+            <img id='treemobile' src={ttm} alt='treetrendsmobile' onClick={() => {this.handleClick('treemobile')}}/>
+          </div>
+
+          <div>
             <img id='dad' src={dad} alt='dad jokes' onClick={() => {this.handleClick('dad')}}/>
           </div>
 
@@ -119,6 +141,10 @@ class Work extends React.Component {
 
           <div>
             <img id='cfs' src={cfs} alt='cfs' onClick={() => {this.handleClick('cfs')}}/>
+          </div>
+
+          <div>
+            <img id='gw' src={gwm} alt='gw' onClick={() => {this.handleClick('gw')}}/>
           </div>
         </div>
       }

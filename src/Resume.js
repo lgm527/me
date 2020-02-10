@@ -51,16 +51,26 @@ class Resume extends React.Component {
       </p>
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      JavaScript, React, React Native, Ruby, Rails, SQL, PostgreSQL, HTML, CSS,
+      JavaScript, React, React Native, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS,
       <br></br>
       Flatiron School Immersive Software Engineering Program
       <br></br><br></br>
       </p>
       <h2>EMPLOYMENT HISTORY</h2>
       <p>
+      <b>The Muse</b>, New York, New York
+      <br></br>
+      Full Stack Engineer, February 2020 - Present
+      <br></br>
+      + Utilize technologies such as React, Django, Python, AWS, Postgres, and Docker
+      <br></br>
+      + Implement new functionality while working on the frontend and backend systems
+      <br></br>
+      + Collaborate with product managers, designers, and other engineers
+      <br></br><br></br>
       <b>LiveAuctioneers</b>, New York, New York
       <br></br>
-      Category Manager, 2016 - 2018
+      Category Manager, August 2016 - December 2018
       <br></br>
       + Organized 12-20 weekly curated auctions, wrote catalogs for each
       <br></br>
@@ -70,23 +80,13 @@ class Resume extends React.Component {
       <br></br><br></br>
       <b>No Longer Empty</b>, New York, New York
       <br></br>
-      Curatorial & Engagement Intern, 2015 - 2015
+      Curatorial & Engagement Intern, June 2015 - August 2015
       <br></br>
       + Curatorial research on artists, venues, and public programming
       <br></br>
       + Managed social media accounts (Facebook, Twitter)
       <br></br>
       + Engagement with visitors and assisting with public programs at exhibitions
-      <br></br><br></br>
-      <b>The Center for Contemporary Art</b>, Bedminster, New Jersey
-      <br></br>
-      Curatorial Intern, 2014 - 2015
-      <br></br>
-      + Curated contemporary realist exhibition with artist Mel Leipzig
-      <br></br>
-      + Facilitated silent auction
-      <br></br>
-      + Art handling, exhibition Installation and deinstallation
       <br></br><br></br>
       </p>
       <h2>EDUCATION</h2>
