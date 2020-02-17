@@ -52,6 +52,17 @@
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 500;
   font-size: 1.5em;
+  overflow: auto;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .show {
+    width: 70%;
+  }
+  #showText {
+    max-height: 35vh;
+  }
 }
 
 #x {
