@@ -17,6 +17,12 @@ class App extends React.Component {
     this.setState({show: showThis})
   }
 
+  handleKeyDown = (event, showThis) => {
+    if (event.keyCode === 32 || event.keyCode === 13) {
+      this.setState({show: showThis})
+    }
+  }
+
   render(){
     const year = new Date();
     return (
@@ -24,19 +30,31 @@ class App extends React.Component {
 
         <header className="App-header">
           <div>
-          <h1 onClick={ () => {this.handleClick('about')} } tabIndex={0}>
+          <h1
+          onClick={ () => {this.handleClick('about')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'about')} }>
           {this.state.show === 'about' ? <u>About</u> : 'About'}
           </h1></div>
           <div>
-          <h1 onClick={ () => {this.handleClick('work')} } tabIndex={0}>
+          <h1
+          onClick={ () => {this.handleClick('work')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'work')} }>
           {this.state.show === 'work' ? <u>Work</u> : 'Work'}
           </h1></div>
           <div>
-          <h1 onClick={ () => {this.handleClick('contact')} } tabIndex={0}>
+          <h1
+          onClick={ () => {this.handleClick('contact')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'contact')} }>
           {this.state.show === 'contact' ? <u>Contact</u> : 'Contact'}
           </h1></div>
           <div>
-          <h1 onClick={ () => {this.handleClick('resume')} } tabIndex={0}>
+          <h1
+          onClick={ () => {this.handleClick('resume')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'resume')} }>
           {this.state.show === 'resume' ? <u>Resume</u> : 'Resume'}
           </h1></div>
         </header>
