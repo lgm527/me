@@ -28,8 +28,13 @@
   box-shadow: 0 0 3px 3px white;
 }
 
+:focus > .btn_content_reversed {
+  box-shadow: 0 0 3px 3px black;
+}
+
 .btn:focus,
-.btn_content:focus {
+.btn_content:focus,
+.btn_content_reversed:focus {
   outline: none;
 }
 
