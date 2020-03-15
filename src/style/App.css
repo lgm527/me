@@ -12,16 +12,25 @@
   color: white;
 }
 
-.App-header > div {
+.App-header > .btn {
   padding: 1vh 1vw;
   cursor: pointer;
 }
 
-.App-header > div:hover {
+.App-header > .btn:hover {
   color: gray;
   opacity: .3;
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
+}
+
+:focus > .btn_content {
+  box-shadow: 0 0 3px 3px white;
+}
+
+.btn:focus,
+.btn_content:focus {
+  outline: none;
 }
 
 #allMe, .social {
