@@ -115,36 +115,60 @@ class Work extends React.Component {
         </div>
         :
         <div className="projects">
-          <div>
-            <img id='tre' src={tre} alt='tree' onClick={() => {this.handleClick('tree')}}/>
+          <div
+          onClick={() => {this.handleClick('tree')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='tre' src={tre} alt='tree'/>
           </div>
 
-          <div>
-            <img id='treemobile' src={ttm} alt='treetrendsmobile' onClick={() => {this.handleClick('treemobile')}}/>
+          <div
+          onClick={() => {this.handleClick('treemobile')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='treemobile' src={ttm} alt='treetrendsmobile'/>
           </div>
 
-          <div>
-            <img id='dad' src={dad} alt='dad jokes' onClick={() => {this.handleClick('dad')}}/>
+          <div
+          onClick={() => {this.handleClick('dad')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='dad' src={dad} alt='dad jokes'/>
           </div>
 
-          <div>
-            <img id='calc' src={calc} alt='calculator' onClick={() => {this.handleClick('calc')}}/>
+          <div
+          onClick={() => {this.handleClick('calc')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='calc' src={calc} alt='calculator'/>
           </div>
 
-          <div>
-            <img id='git' src={gitjobs} alt='git' onClick={() => {this.handleClick('git')}}/>
+          <div
+          onClick={() => {this.handleClick('git')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='git' src={gitjobs} alt='git'/>
           </div>
 
-          <div>
-            <img id='art' src={art} alt='art' onClick={() => {this.handleClick('art')}}/>
+          <div
+          onClick={() => {this.handleClick('art')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='art' src={art} alt='art'/>
           </div>
 
-          <div>
-            <img id='cfs' src={cfs} alt='cfs' onClick={() => {this.handleClick('cfs')}}/>
+          <div
+          onClick={() => {this.handleClick('cfs')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='cfs' src={cfs} alt='cfs'/>
           </div>
 
-          <div>
-            <img id='gw' src={gwm} alt='gw' onClick={() => {this.handleClick('gw')}}/>
+          <div
+          onClick={() => {this.handleClick('gw')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='gw' src={gwm} alt='gw'/>
           </div>
         </div>
       }
