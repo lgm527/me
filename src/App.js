@@ -23,18 +23,21 @@ class App extends React.Component {
       <div className="App">
 
         <header className="App-header">
-          <div onClick={ () => {this.handleClick('about')} }>
-          <h1>
+          <div>
+          <h1 onClick={ () => {this.handleClick('about')} } tabIndex={0}>
           {this.state.show === 'about' ? <u>About</u> : 'About'}
           </h1></div>
-          <div onClick={ () => {this.handleClick('work')} }>
-          <h1>{this.state.show === 'work' ? <u>Work</u> : 'Work'}
+          <div>
+          <h1 onClick={ () => {this.handleClick('work')} } tabIndex={0}>
+          {this.state.show === 'work' ? <u>Work</u> : 'Work'}
           </h1></div>
-          <div onClick={ () => {this.handleClick('contact')} }>
-          <h1>{this.state.show === 'contact' ? <u>Contact</u> : 'Contact'}
+          <div>
+          <h1 onClick={ () => {this.handleClick('contact')} } tabIndex={0}>
+          {this.state.show === 'contact' ? <u>Contact</u> : 'Contact'}
           </h1></div>
-          <div onClick={ () => {this.handleClick('resume')} }>
-          <h1>{this.state.show === 'resume' ? <u>Resume</u> : 'Resume'}
+          <div>
+          <h1 onClick={ () => {this.handleClick('resume')} } tabIndex={0}>
+          {this.state.show === 'resume' ? <u>Resume</u> : 'Resume'}
           </h1></div>
         </header>
 
