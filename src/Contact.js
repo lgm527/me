@@ -17,6 +17,9 @@ class Contact extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
+    if (this.state.from_email === '' || this.state.message === '') {
+      window.alert('* Please complete all required inputs *')
+    } else {
     const templateParams = {
      from_name: this.state.from_name,
      from_email: this.state.from_email,
@@ -29,6 +32,7 @@ class Contact extends React.Component {
        }, (err) => {
            window.alert('Contact unsuccessful because: ', err);
       });
+    }
   }
 
   handleClick = () => {
@@ -52,10 +56,10 @@ class Contact extends React.Component {
             <label>Name</label><br></br>
             <input type="text" placeholder='Name' name="from_name" id='from_name' onChange={this.handleChange} />
 
-            <br></br><label>Email</label><br></br>
+            <br></br><label>Email *</label><br></br>
             <input type="email" placeholder='Email' name="from_email" id='from_email' onChange={this.handleChange} />
 
-            <br></br><label>Message</label><br></br>
+            <br></br><label>Message *</label><br></br>
             <textarea name="message" id='message' placeholder="Hello, I'd like to contact you about..." onChange={this.handleChange} />
             <br></br><input type="submit" value="Send" />
         </form>
