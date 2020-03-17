@@ -95,6 +95,18 @@ class Work extends React.Component {
     this.setState({show: true})
   }
 
+  handleKeyPress = (event, project) => {
+    if (event.key === 'Space' || event.key === 'Enter') {
+      this.handleClick(project)
+    }
+  }
+
+  handleKeyPressX = (event) => {
+    if (event.key === 'Space' || event.key === 'Enter') {
+      this.goBack()
+    }
+  }
+
   showGitHubs = () => {
     return this.state.github.map((link, i) => {return <p key={i}><a href={link}>Github {i+1}</a></p>})
   }
@@ -105,18 +117,25 @@ class Work extends React.Component {
 
       { this.state.show ?
         <div className='show'>
-          <h2><span id='x' onClick={this.goBack}>✖︎</span></h2>
+          <h2
+          onClick={this.goBack}
+          onKeyPress={this.handleKeyPressX}
+          tabIndex={0}
+          className='btn'>
+            <span id='x' className='btn_content' tabIndex={-1}>✖︎</span>
+          </h2>
           <div id='showText'>
-          <h2>{this.state.name}</h2>
-          <p key='description'><i>{this.state.description}</i></p>
-          <p key='demo'><a href={this.state.demo}>Demo</a></p>
-          {this.showGitHubs()}
+            <h2>{this.state.name}</h2>
+            <p key='description'><i>{this.state.description}</i></p>
+            <p key='demo'><a href={this.state.demo}>Demo</a></p>
+            {this.showGitHubs()}
           </div>
         </div>
         :
         <div className="projects">
           <div
           onClick={() => {this.handleClick('tree')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'tree')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='tre' src={tre} alt='tree'/>
@@ -124,6 +143,7 @@ class Work extends React.Component {
 
           <div
           onClick={() => {this.handleClick('treemobile')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'treemobile')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='treemobile' src={ttm} alt='treetrendsmobile'/>
@@ -131,6 +151,7 @@ class Work extends React.Component {
 
           <div
           onClick={() => {this.handleClick('dad')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'dad')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='dad' src={dad} alt='dad jokes'/>
@@ -138,6 +159,7 @@ class Work extends React.Component {
 
           <div
           onClick={() => {this.handleClick('calc')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'calc')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='calc' src={calc} alt='calculator'/>
@@ -145,6 +167,7 @@ class Work extends React.Component {
 
           <div
           onClick={() => {this.handleClick('git')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'git')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='git' src={gitjobs} alt='git'/>
@@ -152,6 +175,7 @@ class Work extends React.Component {
 
           <div
           onClick={() => {this.handleClick('art')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'art')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='art' src={art} alt='art'/>
@@ -159,6 +183,7 @@ class Work extends React.Component {
 
           <div
           onClick={() => {this.handleClick('cfs')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'cfs')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='cfs' src={cfs} alt='cfs'/>
@@ -166,6 +191,7 @@ class Work extends React.Component {
 
           <div
           onClick={() => {this.handleClick('gw')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'gw')}}
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='gw' src={gwm} alt='gw'/>
