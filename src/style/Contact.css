@@ -17,6 +17,21 @@ input[type=text], input[type=email], textarea {
   font-family: 'Red Hat Display', sans-serif;
 }
 
+input[type=text]:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
+}
+
+input[type=email]:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
+}
+
 label {
   padding-right: 4em;
   font-weight: 900;
@@ -42,6 +57,11 @@ input[type=submit] {
 input[type=submit]:hover {
   color: gray;
   opacity: .3;
+}
+
+input[type=submit]:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
 }
 
 #anotherOne {
