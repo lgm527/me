@@ -108,7 +108,12 @@ class Work extends React.Component {
   }
 
   showGitHubs = () => {
-    return this.state.github.map((link, i) => {return <p key={i}><a href={link}>Github {i+1}</a></p>})
+    return this.state.github.map((link, i) => {return <p key={i}><a href={link} target='_blank' onMouseDown={this.blurMe} onClick={this.blurMe}>Github {i+1}</a></p>})
+  }
+
+  blurMe = (event) => {
+    event.stopPropagation();
+    event.target.blur();
   }
 
   render(){
@@ -127,7 +132,14 @@ class Work extends React.Component {
           <div id='showText'>
             <h2>{this.state.name}</h2>
             <p key='description'><i>{this.state.description}</i></p>
-            <p key='demo'><a href={this.state.demo}>Demo</a></p>
+            <p key='demo'>
+              <a
+                href={this.state.demo}
+                target='_blank'
+                onMouseDown={this.blurMe}
+                onClick={this.blurMe}
+              >Demo</a>
+            </p>
             {this.showGitHubs()}
           </div>
         </div>
