@@ -25,8 +25,18 @@ a:hover {
   -webkit-transition: all .5s ease;
 }
 
+a:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
+}
+
 #download {
   border: 5px solid white;
   padding: 5px;
   text-decoration: none;
+}
+
+#download:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
 }
