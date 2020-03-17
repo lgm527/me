@@ -10,6 +10,16 @@
   margin: 10vh 0;
 }
 
+@media only screen and (max-height: 800px) {
+.projects {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: repeat(3, 150px);
+  margin: 10vh 0;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .projects {
     display: grid;
