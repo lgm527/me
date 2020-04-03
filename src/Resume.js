@@ -12,7 +12,7 @@ class Resume extends React.Component {
       <br></br>
       <h2>TECHNICAL PROJECTS</h2>
       <p>
-      <b>TreeTrends</b> - <a href='https://github.com/lgm527/treetrends-client' target='_blank'>Github (Client)</a> | <a href='https://github.com/lgm527/treetrends-API' target='_blank'>Github (API)</a> | <a href='https://www.youtube.com/watch?v=rEuIcwjCHzc&feature=youtu.be' target='_blank'>Demo</a>
+      <b>TreeTrends</b> - <a href='https://github.com/lgm527/treetrends-client' target='_blank' rel='noopener noreferrer'>Github (Client)</a> | <a href='https://github.com/lgm527/treetrends-API' target='_blank' rel='noopener noreferrer'>Github (API)</a> | <a href='https://www.youtube.com/watch?v=rEuIcwjCHzc&feature=youtu.be' target='_blank' rel='noopener noreferrer'>Demo</a>
       <br></br>
       Users can locate trees on the NYC streets near them for stewardship opportunities
       <br></br>
@@ -24,7 +24,7 @@ class Resume extends React.Component {
       <br></br>
       + Established a Ruby on Rails API backend with endpoints for users and trees
       <br></br><br></br>
-      <b>GitJobs</b> - <a href='https://github.com/lgm527/GitJobs-client' target='_blank'>Github (Client)</a> | <a href='https://github.com/lgm527/GitJobs_API>Github (API)' target='_blank'>Github (API)</a> | <a href='https://www.youtube.com/watch?v=9lX1S3DQ_bc&feature=youtu.be' target='_blank'>Demo</a>
+      <b>GitJobs</b> - <a href='https://github.com/lgm527/GitJobs-client' target='_blank' rel='noopener noreferrer'>Github (Client)</a> | <a href='https://github.com/lgm527/GitJobs_API>Github (API)' target='_blank' rel='noopener noreferrer'>Github (API)</a> | <a href='https://www.youtube.com/watch?v=9lX1S3DQ_bc&feature=youtu.be' target='_blank' rel='noopener noreferrer'>Demo</a>
       <br></br>
       Users can locate jobs postings on Github and save them to their profile with links to apply
       <br></br>
@@ -36,7 +36,7 @@ class Resume extends React.Component {
       <br></br>
       + Employed JSON Web Tokens and localStorage to store encrypted user information on client-side
       <br></br><br></br>
-      <b>Artstagram</b> - <a href='https://github.com/lgm527/artstagram' target='_blank'>Github</a> | <a href='https://www.youtube.com/watch?v=d22s48KLxHo&feature=youtu.be' target='_blank'>Demo</a>
+      <b>Artstagram</b> - <a href='https://github.com/lgm527/artstagram' target='_blank' rel='noopener noreferrer'>Github</a> | <a href='https://www.youtube.com/watch?v=d22s48KLxHo&feature=youtu.be' target='_blank' rel='noopener noreferrer'>Demo</a>
       <br></br>
       User can view artwork by Van Gogh, as well as like, and leave comments
       <br></br>
@@ -111,7 +111,7 @@ class Resume extends React.Component {
       </p>
 
       <br></br>
-      <h1><a id='download' href='https://github.com/lgm527/resume.json/blob/master/LGMresume.json' target='_blank'>View JSON</a></h1>
+      <h1><a id='download' href='https://github.com/lgm527/resume.json/blob/master/LGMresume.json' target='_blank' rel='noopener noreferrer'>View JSON</a></h1>
 
       </div>
     )

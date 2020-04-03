@@ -108,7 +108,7 @@ class Work extends React.Component {
   }
 
   showGitHubs = () => {
-    return this.state.github.map((link, i) => {return <p key={i}><a href={link} target='_blank' onMouseDown={this.blurMe} onClick={this.blurMe}>Github {i+1}</a></p>})
+    return this.state.github.map((link, i) => {return <p key={i}><a href={link} target='_blank' rel='noopener noreferrer' onMouseDown={this.blurMe} onClick={this.blurMe}>Github {i+1}</a></p>})
   }
 
   blurMe = (event) => {
@@ -136,6 +136,7 @@ class Work extends React.Component {
               <a
                 href={this.state.demo}
                 target='_blank'
+                rel='noopener noreferrer'
                 onMouseDown={this.blurMe}
                 onClick={this.blurMe}
               >Demo</a>
