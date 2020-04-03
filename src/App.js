@@ -91,11 +91,7 @@ class App extends React.Component {
         </div>
 
         <div id='allMe'>
-          <h2 id='title'>Full Stack Engineer
-          <br></br>at <a href='https://www.themuse.com/' tabIndex={0} className='btn' target='_blank' rel='noopener noreferrer'>
-          <span tabIndex={-1} className='btn_content'>The Muse</span>
-          </a>
-          </h2>
+          <h2 id='title'>Full Stack Engineer</h2>
           <h1 className='name'>Laurell</h1>
           <h1 className='name'>McCaffrey</h1>
           <p id='copy'>© Laurell McCaffrey {year.getFullYear()}</p>
