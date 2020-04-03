@@ -51,7 +51,7 @@ class Resume extends React.Component {
       </p>
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      JavaScript, React, React Native, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS,
+      JavaScript, React, React Native, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, SCRUM/Agile Methodology,
       <br></br>
       Flatiron School Immersive Software Engineering Program
       <br></br><br></br>
@@ -60,9 +60,9 @@ class Resume extends React.Component {
       <p>
       <b>The Muse</b>, New York, New York
       <br></br>
-      Full Stack Engineer, February 2020 - Present
+      Full Stack Engineer, February 2020 - March 2020
       <br></br>
-      + Utilize technologies such as React, Django, Python, AWS, Postgres, and Docker
+      + Utilize technologies such as React, JavaScript/TypeScript, Python, AWS, Postgres, and Docker
       <br></br>
       + Implement new functionality while working on the frontend and backend systems
       <br></br>
