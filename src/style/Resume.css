@@ -40,3 +40,7 @@ a:focus {
   outline: none;
   box-shadow: 0 0 3px 3px white;
 }
+
+#covid {
+  font-size: 10px;
+}

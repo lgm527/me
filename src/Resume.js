@@ -10,6 +10,59 @@ class Resume extends React.Component {
 
       <h1><a id='download' href={resume} download>Download</a></h1>
       <br></br>
+
+      <h2>TECHNICAL SKILLS</h2>
+      <p>
+      React, Redux, React Native, JavaScript, TypeScript, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, SCRUM/Agile Methodology
+      <br></br><br></br>
+      </p>
+
+      <h2>EMPLOYMENT HISTORY</h2>
+      <p>
+      <b>The Muse</b>, New York, New York
+      <br></br>
+      Full Stack Engineer, February 2020 - March 2020 <span id='covid'>(COVID-19)</span>
+      <br></br>
+      + Collaborated with product managers, designers, and engineers to implement website functionality that increased candidate application rate
+      <br></br>
+      + Coded in React, TypeScript, CSS, HTML, utilized Storybook to implement ADA compliant designs
+      <br></br>
+      + Participated in SCRUM stand-ups, grooming/planning, demo, and retro meetings
+      <br></br><br></br>
+      <b>My Software Engineer Training Program</b>, New York, New York
+      <br></br>
+      Full Stack Engineer, January 2019 - January 2020
+      <br></br>
+      + Envisioned and executed full time self directed and formal coding education program
+      <br></br>
+      + January - June: Self taught JavaScript, HTML, CSS, plus 200 hour bootcamp pre-course work
+      <br></br>
+      + June - October: Full time curriculum in JavaScript, React, Redux, Ruby, Rails
+      <br></br>
+      + October - January: Projects, networking, volunteering, continuing education and seeking full time employment that resulted in multiple job offers
+      <br></br><br></br>
+      <b>LiveAuctioneers</b>, New York, New York
+      <br></br>
+      Category Manager, August 2016 - December 2018
+      <br></br>
+      + Wrote catalogs with HTML and organized 20+ weekly curated auctions
+      <br></br>
+      + Managed relationships with over 50 auction houses and art dealers, handled their inventory
+      <br></br>
+      + Composed SQL queries to match buyers with items
+      <br></br><br></br>
+      <b>No Longer Empty</b>, New York, New York
+      <br></br>
+      Curatorial & Engagement Intern, June 2015 - August 2015
+      <br></br>
+      + Curatorial research on artists, venues, and public programming
+      <br></br>
+      + Managed social media accounts (Facebook, Twitter)
+      <br></br>
+      + Engagement with visitors and assisting with public programs at exhibitions
+      <br></br><br></br>
+      </p>
+
       <h2>TECHNICAL PROJECTS</h2>
       <p>
       <b>TreeTrends</b> - <a href='https://github.com/lgm527/treetrends-client' target='_blank' rel='noopener noreferrer'>Github (Client)</a> | <a href='https://github.com/lgm527/treetrends-API' target='_blank' rel='noopener noreferrer'>Github (API)</a> | <a href='https://www.youtube.com/watch?v=rEuIcwjCHzc&feature=youtu.be' target='_blank' rel='noopener noreferrer'>Demo</a>
@@ -49,65 +102,27 @@ class Resume extends React.Component {
       + Utilized Semantic UI to contribute to the minimalist style
       <br></br><br></br>
       </p>
-      <h2>TECHNICAL SKILLS</h2>
+
+      <h2>VOLUNTEER</h2>
       <p>
-      JavaScript, React, React Native, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, SCRUM/Agile Methodology,
+      <b>Fraunces Tavern Museum</b>, New York, New York
       <br></br>
-      Flatiron School Immersive Software Engineering Program
-      <br></br><br></br>
+      Docent, 2016 - Present
+      <br></br>
+      + Bring the rich history of New York City during the Revolutionary War to life leading weekly tours
       </p>
-      <h2>EMPLOYMENT HISTORY</h2>
-      <p>
-      <b>The Muse</b>, New York, New York
-      <br></br>
-      Full Stack Engineer, February 2020 - March 2020
-      <br></br>
-      + Utilize technologies such as React, JavaScript/TypeScript, Python, AWS, Postgres, and Docker
-      <br></br>
-      + Implement new functionality while working on the frontend and backend systems
-      <br></br>
-      + Collaborate with product managers, designers, and other engineers
-      <br></br><br></br>
-      <b>LiveAuctioneers</b>, New York, New York
-      <br></br>
-      Category Manager, August 2016 - December 2018
-      <br></br>
-      + Organized 12-20 weekly curated auctions, wrote catalogs for each
-      <br></br>
-      + Managed relationships with over 50 auction houses and art dealers, handled their inventory
-      <br></br>
-      + Operated bidder concierge service by matching buyers to items they seek
-      <br></br><br></br>
-      <b>No Longer Empty</b>, New York, New York
-      <br></br>
-      Curatorial & Engagement Intern, June 2015 - August 2015
-      <br></br>
-      + Curatorial research on artists, venues, and public programming
-      <br></br>
-      + Managed social media accounts (Facebook, Twitter)
-      <br></br>
-      + Engagement with visitors and assisting with public programs at exhibitions
-      <br></br><br></br>
-      </p>
+
       <h2>EDUCATION</h2>
       <p>
-      <b>Flatiron School</b> - Brooklyn, New York - 2019
+      <b>Flatiron School</b>, Brooklyn, New York - 2019
       <br></br>
       + Immersive Full Stack Web Development, Ruby on Rails and JavaScript program
       <br></br><br></br>
       <b>Rutgers University</b> - New Brunswick, New Jersey - 2016
       <br></br>
-      + Bachelor of Arts degree in Art History, Bachelor of Arts degree in Psychology
+      + Bachelor of Arts degrees in Art History and Psychology
       <br></br>
       + Art History Graduation Ceremony Speaker, 3.4 GPA
-      </p>
-      <h2>VOLUNTEER</h2>
-      <p>
-      <b>Fraunces Tavern Museum</b> - New York, New York
-      <br></br>
-      Docent, 2016 - Present
-      <br></br>
-      + Develop, lead, and engage visitors in the rich history of New York City during the Revolution
       </p>
 
       <br></br>
