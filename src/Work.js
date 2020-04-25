@@ -8,6 +8,7 @@ import dad from './assets/dad.png';
 import calc from './assets/calc.png';
 import ttm from './assets/tretremobile.png';
 import gwm from './assets/gwmobileview.png';
+import tt2 from './assets/tt2.png';
 
 class Work extends React.Component {
 
@@ -34,6 +35,14 @@ class Work extends React.Component {
         demo: 'https://www.youtube.com/watch?v=rEuIcwjCHzc&feature=youtu.be',
         github: ['https://github.com/lgm527/treetrends-client', 'https://github.com/lgm527/treetrends-API'],
         img: tre
+      })
+    } else if (project === 'tt2') {
+      this.setState({
+        name: 'TreeTrends2.0',
+        description: 'Users can locate trees on the NYC streets near them for stewardship opportunities and email the tree\'s information.',
+        demo: 'https://lgm527.github.io/tt2',
+        github: ['https://github.com/lgm527/tt2'],
+        img: tt2
       })
     } else if (project === 'treemobile') {
       this.setState({
@@ -146,6 +155,14 @@ class Work extends React.Component {
         </div>
         :
         <div className="projects">
+          <div
+          onClick={() => {this.handleClick('tt2')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'tt2')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='tre' src={tt2} alt='tree2'/>
+          </div>
+
           <div
           onClick={() => {this.handleClick('tree')}}
           onKeyPress={(event) => {this.handleKeyPress(event, 'tree')}}
