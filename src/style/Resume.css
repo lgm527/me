@@ -19,7 +19,6 @@ a {
 }
 
 a:hover {
-  color: gray;
   opacity: .3;
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
