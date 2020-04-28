@@ -98,3 +98,7 @@
 .App-footer > a:hover {
   opacity: .5;
 }
+
+.App-footer > a:focus {
+  box-shadow: none;
+}

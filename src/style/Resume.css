@@ -6,13 +6,6 @@
   overflow-y: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  .resume {
-    width: 90%;
-    max-height: 50vh;
-  }
-}
-
 a {
   text-decoration: underline;
   color: white;
@@ -24,7 +17,7 @@ a:hover {
   -webkit-transition: all .5s ease;
 }
 
-a:focus {
+p > a:focus {
   outline: none;
   box-shadow: 0 0 3px 3px white;
 }
@@ -42,4 +35,11 @@ a:focus {
 
 #covid {
   font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume {
+    width: 90%;
+    max-height: 50vh;
+  }
 }
