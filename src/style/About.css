@@ -28,3 +28,10 @@
 h3  {
   margin-bottom: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  #bio {
+    width: 90%;
+    max-height: 50vh;
+  }
+}
