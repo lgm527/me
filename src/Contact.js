@@ -42,7 +42,7 @@ class Contact extends React.Component {
 
   render(){
     return (
-      <div className="contact_container">
+      <div className='contact_container'>
 
         {
           this.state.complete ?
@@ -51,17 +51,17 @@ class Contact extends React.Component {
             <h2 id='anotherOne' onClick={this.handleClick}>Send Another ↺</h2>
           </div>
           :
-          <form id="contact-form" onSubmit={this.handleSubmit} autoComplete="off">
-            <input type="hidden" name="contact" />
+          <form id='contact-form' onSubmit={this.handleSubmit} autoComplete='off'>
+            <input type='hidden' name='contact' />
             <label>Name</label><br></br>
-            <input type="text" placeholder='Name' name="from_name" id='from_name' onChange={this.handleChange} />
+            <input type='text' placeholder='Name' name='from_name' id='from_name' onChange={this.handleChange} />
 
             <br></br><label>Email *</label><br></br>
-            <input type="email" placeholder='Email' name="from_email" id='from_email' onChange={this.handleChange} />
+            <input type='email' placeholder='Email' name='from_email' id='from_email' onChange={this.handleChange} />
 
             <br></br><label>Message *</label><br></br>
-            <textarea name="message" id='message' placeholder="Hello, I'd like to contact you about..." onChange={this.handleChange} />
-            <br></br><input type="submit" value="Send" />
+            <textarea name='message' id='message' placeholder='Hello, I'd like to contact you about...' onChange={this.handleChange} />
+            <br></br><input type='submit' value='Send' />
         </form>
 
       }

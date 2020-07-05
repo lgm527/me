@@ -154,7 +154,7 @@ class Work extends React.Component {
           </div>
         </div>
         :
-        <div className="projects">
+        <div className='projects'>
           <div
           onClick={() => {this.handleClick('tt2')}}
           onKeyPress={(event) => {this.handleKeyPress(event, 'tt2')}}
