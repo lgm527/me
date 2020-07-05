@@ -4,10 +4,10 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #9796f0;  /* LAVENDER fallback for old browsers */
-  background: -webkit-linear-gradient(to right, cornflowerblue, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, cornflowerblue, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
+  background: #1f1f1f;
+  background: -webkit-linear-gradient(to bottom, #2b2b2b);
+  background: linear-gradient(to bottom, #2b2b2b);
 }
 
 h1, h2, h3 {
