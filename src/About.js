@@ -14,7 +14,7 @@ function About() {
       <img
       id='me'
       src={headshot_lg}
-      srcSet={${headshot_m} 300w, ${headshot_lg} 500w`}
+      srcSet={`${headshot_m} 300w, ${headshot_lg} 500w`}
       sizes='(max-width: 1024px) 300px, (min-width: 1024px) 500px'
       alt='me' />
     </div>
