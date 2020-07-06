@@ -60,7 +60,7 @@ class Contact extends React.Component {
             <input type='email' placeholder='Email' name='from_email' id='from_email' onChange={this.handleChange} />
 
             <br></br><label>Message *</label><br></br>
-            <textarea name='message' id='message' placeholder='Hello, I'd like to contact you about...' onChange={this.handleChange} />
+            <textarea name='message' id='message' placeholder='Hello!' onChange={this.handleChange} />
             <br></br><input type='submit' value='Send' />
         </form>
 
