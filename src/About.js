@@ -1,5 +1,7 @@
 import React from 'react';
-import headshot from  './assets/headshot.jpeg';
+import headshot_lg from './assets/headshot_lg.jpeg';
+import headshot_m from './assets/headshot_m.jpeg';
+import headshot_sm from './assets/headshot_sm.jpeg';
 import './style/About.css';
 
 function About() {
@@ -10,7 +12,12 @@ function About() {
         <h3>Stack</h3>
           <p>JavaScript, TypeScript, React, React Native, Ruby, Ruby on Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, Git, SCRUM/Agile Methodology</p>
       </div>
-      <img id='me' src={headshot} alt='me' />
+      <img
+      id='me'
+      src={headshot_lg}
+      srcSet={`${headshot_sm} 100w, ${headshot_m} 300w, ${headshot_lg} 500w`}
+      sizes='(max-width: 480px) 100px, (max-width: 1024px) 300px, (min-width: 1024px) 500px'
+      alt='me' />
     </div>
   );
 }
