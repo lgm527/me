@@ -1,7 +1,6 @@
 import React from 'react';
 import headshot_lg from './assets/headshot_lg.jpeg';
 import headshot_m from './assets/headshot_m.jpeg';
-import headshot_sm from './assets/headshot_sm.jpeg';
 import './style/About.css';
 
 function About() {
@@ -15,8 +14,8 @@ function About() {
       <img
       id='me'
       src={headshot_lg}
-      srcSet={`${headshot_sm} 100w, ${headshot_m} 300w, ${headshot_lg} 500w`}
-      sizes='(max-width: 480px) 100px, (max-width: 1024px) 300px, (min-width: 1024px) 500px'
+      srcSet={${headshot_m} 300w, ${headshot_lg} 500w`}
+      sizes='(max-width: 1024px) 300px, (min-width: 1024px) 500px'
       alt='me' />
     </div>
   );
