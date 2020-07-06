@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4d078f78c00d92cc059196be58ca433",
+    "revision": "880d44e04fab75194b3dd62757b8287f",
     "url": "/index.html"
   },
   {
-    "revision": "b8ac02059891933fc0f3",
-    "url": "/static/css/main.8979d41e.chunk.css"
+    "revision": "9b3cc9f3a129387e9024",
+    "url": "/static/css/main.cf529609.chunk.css"
   },
   {
-    "revision": "87382580220e217fd22a",
-    "url": "/static/js/2.b3e75190.chunk.js"
+    "revision": "19c0d2a7479c1976f346",
+    "url": "/static/js/2.c419fef9.chunk.js"
   },
   {
-    "revision": "b8ac02059891933fc0f3",
-    "url": "/static/js/main.8990ec2f.chunk.js"
+    "revision": "9b3cc9f3a129387e9024",
+    "url": "/static/js/main.fc48c736.chunk.js"
   },
   {
     "revision": "2f105c8c42093b824d78",
@@ -52,8 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gwmobileview.d77592d3.png"
   },
   {
-    "revision": "042a3debec19077299382809c93826c7",
-    "url": "/static/media/headshot.042a3deb.jpeg"
+    "revision": "6e993e6d1abba78f5de22ceb5c15dd9e",
+    "url": "/static/media/headshot_lg.6e993e6d.jpeg"
+  },
+  {
+    "revision": "7dc6e48291a1196da9395e36969205a2",
+    "url": "/static/media/headshot_m.7dc6e482.jpeg"
+  },
+  {
+    "revision": "45a06890ae175998b9f248600a7a0585",
+    "url": "/static/media/headshot_sm.45a06890.jpeg"
   },
   {
     "revision": "1f2c836cf87debd03adfee217a9d1085",
