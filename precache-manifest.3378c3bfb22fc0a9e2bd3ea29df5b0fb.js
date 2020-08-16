@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9fbf1a6a74663a80ac08d92d2e4d3918",
+    "revision": "049a627f8e27cd5325c012afce2dc3d5",
     "url": "/index.html"
   },
   {
-    "revision": "f0da43077415ba350b38",
+    "revision": "569f5859fae012160575",
     "url": "/static/css/main.cf529609.chunk.css"
   },
   {
-    "revision": "516a321467a4593f77e1",
-    "url": "/static/js/2.be36148f.chunk.js"
+    "revision": "f65494420d9ed01e6426",
+    "url": "/static/js/2.f5ff6aea.chunk.js"
   },
   {
-    "revision": "f0da43077415ba350b38",
-    "url": "/static/js/main.4dcb76e7.chunk.js"
+    "revision": "569f5859fae012160575",
+    "url": "/static/js/main.a8437049.chunk.js"
   },
   {
     "revision": "2f105c8c42093b824d78",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee0602f94562111b7e685dd50044d9e1",
     "url": "/static/media/gitjobs.ee0602f9.png"
+  },
+  {
+    "revision": "a92253393199bec5199e619e681e8bab",
+    "url": "/static/media/gitstats.a9225339.png"
   },
   {
     "revision": "d77592d3d374d0c6f3ddae0f74b1bfa1",
