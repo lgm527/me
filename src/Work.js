@@ -9,6 +9,7 @@ import calc from './assets/calc.png';
 import ttm from './assets/tretremobile.png';
 import gwm from './assets/gwmobileview.png';
 import tt2 from './assets/tt2.png';
+import gitstats from './assets/gitstats.png';
 
 class Work extends React.Component {
 
@@ -100,6 +101,14 @@ class Work extends React.Component {
         github: ['https://github.com/lgm527/gw_ftm_tour'],
         img: gwm
       })
+    } else if (project === 'gitstats') {
+      this.setState({
+        name: 'Git Stats',
+        description: 'Create a baseball card with GitHub Statistics.',
+        demo: 'https://git-stats-and-octocats.netlify.app/',
+        github: ['https://github.com/lgm527/git_stats_2'],
+        img: gitstats
+      })
     }
     this.setState({show: true})
   }
@@ -177,6 +186,14 @@ class Work extends React.Component {
           tabIndex={0}
           className='btn'>
             <img tabIndex={-1} className='btn_content' id='treemobile' src={ttm} alt='treetrendsmobile'/>
+          </div>
+
+          <div
+          onClick={() => {this.handleClick('gitstats')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'gitstats')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='gitstats' src={gitstats} alt='gitstats'/>
           </div>
 
           <div
