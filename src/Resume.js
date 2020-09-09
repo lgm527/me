@@ -11,6 +11,12 @@ class Resume extends React.Component {
       <h1><a id='download' href={resume} download>Download</a></h1>
       <br></br>
 
+      <p>
+        Full stack software engineer with experience in JavaScript/TypeScript, React/Redux, and Ruby on Rails.
+        <br></br>
+        Strong research, communication, and writing skills that support a high level of productivity and collaboration.
+      </p>
+
       <h2>TECHNICAL SKILLS</h2>
       <p>
       React, Redux, React Native, JavaScript, TypeScript, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, SCRUM/Agile Methodology
