@@ -6,8 +6,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: white;
   background: #1f1f1f;
-  background: -webkit-linear-gradient(to bottom, #2b2b2b);
-  background: linear-gradient(to bottom, #2b2b2b);
 }
 
 h1, h2, h3 {
