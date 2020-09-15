@@ -6,7 +6,7 @@
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: repeat(1, 300px);
+  grid-template-rows: repeat(1, 250px);
   margin: 10vh 0;
 }
 
