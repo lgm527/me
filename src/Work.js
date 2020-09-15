@@ -188,34 +188,34 @@ class Work extends React.Component {
           <header className='App-header work-section'>
           <div
           className='btn'
-          onClick={ () => {this.handleSection('highlights')} }
-          tabIndex={0}
-          onKeyDown={ (event) => {this.handleKeyDown(event, 'highlights')} }>
-          <h3
-          className='btn_content'
-          tabIndex={-1}>
-          {this.state.section === 'highlights' ? <u>Hightlights</u> : 'Hightlights'}
-          </h3></div>
-          <div
-          className='btn'
           onClick={ () => {this.handleSection('solo')} }
           tabIndex={0}
           onKeyDown={ (event) => {this.handleKeyDown(event, 'solo')} }>
-          <h3
+          <h1
           className='btn_content'
           tabIndex={-1}>
           {this.state.section === 'solo' ? <u>Solo</u> : 'Solo'}
-          </h3></div>
+          </h1></div>
+          <div
+          className='btn'
+          onClick={ () => {this.handleSection('highlights')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'highlights')} }>
+          <h1
+          className='btn_content'
+          tabIndex={-1}>
+          {this.state.section === 'highlights' ? <u>Hightlights</u> : 'Hightlights'}
+          </h1></div>
           <div
           className='btn'
           onClick={ () => {this.handleSection('group')} }
           tabIndex={0}
           onKeyDown={ (event) => {this.handleKeyDown(event, 'group')} }>
-          <h3
+          <h1
           className='btn_content'
           tabIndex={-1}>
           {this.state.section === 'group' ? <u>Group</u> : 'Group'}
-          </h3></div>
+          </h1></div>
           </header>
 
           {
