@@ -14,6 +14,7 @@ import gitstats from './assets/gitstats.png';
 class Work extends React.Component {
 
   startingState = {
+    section: 'highlights',
     show: false,
     name: '',
     description: '',
@@ -25,7 +26,16 @@ class Work extends React.Component {
   state = this.startingState
 
   goBack = () => {
-    this.setState(this.startingState)
+    this.setState(
+      {
+        show: false,
+        name: '',
+        description: '',
+        demo: '',
+        github: [],
+        img: ''
+      }
+    )
   }
 
   handleClick = (project) => {
@@ -134,6 +144,16 @@ class Work extends React.Component {
     event.target.blur();
   }
 
+  handleSection = (section) => {
+    this.setState({section: section})
+  }
+
+  handleKeyDown = (event, section) => {
+    if (event.keyCode === 32 || event.keyCode === 13) {
+      this.setState({section: section})
+    }
+  }
+
   render(){
     return (
       <div className='container'>
@@ -164,100 +184,131 @@ class Work extends React.Component {
         </div>
         :
         <React.Fragment>
-          <h4>Highlights</h4>
-          <div className='projects'>
-            
-            <div
-            onClick={() => {this.handleClick('tt2')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'tt2')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='tre' src={tt2} alt='tree2'/>
-            </div>
 
-            <div
-            onClick={() => {this.handleClick('tree')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'tree')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='tre' src={tre} alt='tree'/>
-            </div>
+          <header className='App-header work-section'>
+          <div
+          className='btn'
+          onClick={ () => {this.handleSection('highlights')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'highlights')} }>
+          <h3
+          className='btn_content'
+          tabIndex={-1}>
+          {this.state.section === 'highlights' ? <u>Hightlights</u> : 'Hightlights'}
+          </h3></div>
+          <div
+          className='btn'
+          onClick={ () => {this.handleSection('solo')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'solo')} }>
+          <h3
+          className='btn_content'
+          tabIndex={-1}>
+          {this.state.section === 'solo' ? <u>Solo</u> : 'Solo'}
+          </h3></div>
+          <div
+          className='btn'
+          onClick={ () => {this.handleSection('group')} }
+          tabIndex={0}
+          onKeyDown={ (event) => {this.handleKeyDown(event, 'group')} }>
+          <h3
+          className='btn_content'
+          tabIndex={-1}>
+          {this.state.section === 'group' ? <u>Group</u> : 'Group'}
+          </h3></div>
+          </header>
 
-            <div
-            onClick={() => {this.handleClick('treemobile')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'treemobile')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='treemobile' src={ttm} alt='treetrendsmobile'/>
-            </div>
-
-            <div
-            onClick={() => {this.handleClick('gitstats')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'gitstats')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='gitstats' src={gitstats} alt='gitstats'/>
-            </div>
-            </div>
-
-            <h4>Solo</h4>
+          {
+            this.state.section === 'highlights' ?
             <div className='projects'>
+              <div
+              onClick={() => {this.handleClick('tt2')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'tt2')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='tre' src={tt2} alt='tree2'/>
+              </div>
 
-            <div
-            onClick={() => {this.handleClick('dad')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'dad')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='dad' src={dad} alt='dad jokes'/>
-            </div>
+              <div
+              onClick={() => {this.handleClick('tree')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'tree')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='tre' src={tre} alt='tree'/>
+              </div>
+
+              <div
+              onClick={() => {this.handleClick('treemobile')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'treemobile')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='treemobile' src={ttm} alt='treetrendsmobile'/>
+              </div>
+
+              <div
+              onClick={() => {this.handleClick('gitstats')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'gitstats')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='gitstats' src={gitstats} alt='gitstats'/>
+              </div>
+            </div> 
+            : 
+            this.state.section === 'solo' ?
+            <div className='projects'>
+              <div
+              onClick={() => {this.handleClick('dad')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'dad')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='dad' src={dad} alt='dad jokes'/>
+              </div>
             
 
-            <div
-            onClick={() => {this.handleClick('calc')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'calc')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='calc' src={calc} alt='calculator'/>
-            </div>
+              <div
+              onClick={() => {this.handleClick('calc')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'calc')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='calc' src={calc} alt='calculator'/>
+              </div>
 
-            <div
-            onClick={() => {this.handleClick('gw')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'gw')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='gw' src={gwm} alt='gw'/>
-            </div>
-            </div>
-
-            <h4>Group</h4>
+              <div
+              onClick={() => {this.handleClick('gw')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'gw')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='gw' src={gwm} alt='gw'/>
+              </div>
+            </div> 
+            : 
             <div className='projects'>
-            <div
-            onClick={() => {this.handleClick('git')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'git')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='git' src={gitjobs} alt='git'/>
-            </div>
+              <div
+              onClick={() => {this.handleClick('git')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'git')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='git' src={gitjobs} alt='git'/>
+              </div>
 
-            <div
-            onClick={() => {this.handleClick('art')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'art')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='art' src={art} alt='art'/>
-            </div>
+              <div
+              onClick={() => {this.handleClick('art')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'art')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='art' src={art} alt='art'/>
+              </div>
 
-            <div
-            onClick={() => {this.handleClick('cfs')}}
-            onKeyPress={(event) => {this.handleKeyPress(event, 'cfs')}}
-            tabIndex={0}
-            className='btn'>
-              <img tabIndex={-1} className='btn_content' id='cfs' src={cfs} alt='cfs'/>
+              <div
+              onClick={() => {this.handleClick('cfs')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'cfs')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='cfs' src={cfs} alt='cfs'/>
+              </div>
             </div>
-            </div>
-
-        </React.Fragment>
-        
+          }
+        </React.Fragment>       
       }
 
       </div>
