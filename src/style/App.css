@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+/* header */
+
 .App-header {
   min-height: 10vh;
   display: grid;
@@ -34,6 +36,40 @@
 .btn_content:focus,
 .btn_content_reversed:focus {
   outline: none;
+}
+
+/* body */
+
+.stuff {
+  min-height: 50vh;
+}
+
+/* footer */
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+  align-content: right;
+  bottom: 0;
+  right: 4em;
+  /* position: fixed; */
+  position: absolute;
+}
+
+.App-footer > a {
+  padding: 3vw .5vw;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+}
+
+.App-footer > a:hover {
+  opacity: .5;
+}
+
+.App-footer > a:focus {
+  box-shadow: none;
 }
 
 #allMe, .social {
@@ -73,34 +109,7 @@
   font-size: 12px;
 }
 
-.stuff {
-  min-height: 50vh;
-}
-
-.App-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  text-align: right;
-  align-content: right;
-  bottom: 0;
-  right: 4em;
-  position: fixed;
-}
-
-.App-footer > a {
-  padding: 3vw .5vw;
-  transition: all .5s ease;
-  -webkit-transition: all .5s ease;
-}
-
-.App-footer > a:hover {
-  opacity: .5;
-}
-
-.App-footer > a:focus {
-  box-shadow: none;
-}
+/* media queries */
 
 @media only screen and (max-width: 600px) {
   #bio {
