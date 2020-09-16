@@ -11,8 +11,6 @@ input[type=text], input[type=email], textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 1em; /* Add a top margin */
   margin-bottom: 1em; /* Bottom margin */
-  /* margin-left: 3em; */
-  margin-right: 5em;
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   font-family: 'Red Hat Display', sans-serif;
 }
@@ -33,7 +31,6 @@ textarea:focus {
 }
 
 label {
-  padding-right: 4em;
   font-weight: 900;
 }
 
@@ -42,7 +39,6 @@ input[type=submit] {
   color: white;
   border: 5px solid white;
   padding: 5px;
-  margin-right: 4em;
   font: inherit;
   cursor: pointer;
   outline: inherit;
