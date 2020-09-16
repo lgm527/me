@@ -31,6 +31,8 @@ class App extends React.Component {
         <header className='App-header'>
           <div
           className='btn'
+          aria-label='about'
+          role='button'
           onClick={ () => {this.handleClick('about')} }
           tabIndex={0}
           onKeyDown={ (event) => {this.handleKeyDown(event, 'about')} }>
@@ -41,6 +43,8 @@ class App extends React.Component {
           </h1></div>
           <div
           className='btn'
+          aria-label='work'
+          role='button'
           onClick={ () => {this.handleClick('work')} }
           tabIndex={0}
           onKeyDown={ (event) => {this.handleKeyDown(event, 'work')} }>
@@ -51,6 +55,8 @@ class App extends React.Component {
           </h1></div>
           <div
           className='btn'
+          aria-label='contact'
+          role='button'
           onClick={ () => {this.handleClick('contact')} }
           tabIndex={0}
           onKeyDown={ (event) => {this.handleKeyDown(event, 'contact')} }>
@@ -61,6 +67,8 @@ class App extends React.Component {
           </h1></div>
           <div
           className='btn'
+          aria-label='resume'
+          role='button'
           onClick={ () => {this.handleClick('resume')} }
           tabIndex={0}
           onKeyDown={ (event) => {this.handleKeyDown(event, 'resume')} }>
