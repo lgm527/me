@@ -54,8 +54,7 @@
   align-content: right;
   bottom: 0;
   right: 4em;
-  /* position: fixed; */
-  position: absolute;
+  position: fixed;
 }
 
 .App-footer > a {
