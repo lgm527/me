@@ -66,3 +66,17 @@ input[type=submit]:focus {
   cursor: pointer;
   text-decoration: none;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 900px) {
+  input[type=text], input[type=email], textarea {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+  }
+}
