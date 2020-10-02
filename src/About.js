@@ -11,19 +11,12 @@ function About() {
         <h3>Stack</h3>
           <p>JavaScript, TypeScript, React, React Native, Ruby, Ruby on Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, Git, SCRUM/Agile Methodology</p>
       </div>
-      {/* <img
+      <img
       id='me'
       src={headshot_lg}
       srcSet={`${headshot_m} 300w, ${headshot_lg} 500w`}
       sizes='(max-width: 1024px) 300px, (min-width: 1024px) 500px'
-      alt='me' /> */}
-      
-      <div class="image-glitch">
-        <div class="image-distortion" id="base"></div>
-        <div class="image-distortion" id="red"></div>
-        <div class="image-distortion" id="cyan"></div>
-        <div class="image-distortion" id="transparent"></div>
-      </div>
+      alt='me' /> 
 
     </div>
   );
