@@ -111,9 +111,16 @@ class Resume extends React.Component {
 
       <h2>VOLUNTEER</h2>
       <p>
+      <b>Pods.nyc</b>, New York, New York
+      <br></br>
+      Full Stack Engineer, August 2020 - September 2020
+      <br></br>
+      + Created the pods profile by utilizing React and Material-UI to replicate Figma designs
+      </p>
+      <p>
       <b>Fraunces Tavern Museum</b>, New York, New York
       <br></br>
-      Docent, 2016 - Present
+      Docent, December 2016 - March 2020
       <br></br>
       + Bring the rich history of New York City during the Revolutionary War to life leading weekly tours
       </p>
