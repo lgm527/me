@@ -10,6 +10,7 @@ import ttm from './assets/tretremobile.png';
 import gwm from './assets/gwmobileview.png';
 import tt2 from './assets/tt2.png';
 import gitstats from './assets/gitstats.png';
+import eat from './assets/eat_q.png';
 
 class Work extends React.Component {
 
@@ -102,6 +103,14 @@ class Work extends React.Component {
         demo: 'https://lgm527.github.io/calc/',
         github: ['https://github.com/lgm527/calc'],
         img: calc
+      })
+    } else if (project === 'eat') {
+      this.setState({
+        name: 'Eat That Question',
+        description: 'A timed trivia game to test your knowledge of Frank Zappa lyrics.',
+        demo: 'https://eat-that-question.netlify.app/',
+        github: ['https://github.com/lgm527/eat_that_question'],
+        img: eat
       })
     } else if (project === 'gw') {
       this.setState({
@@ -271,6 +280,14 @@ class Work extends React.Component {
               tabIndex={0}
               className='btn'>
                 <img tabIndex={-1} className='btn_content' id='calc' src={calc} alt='calculator'/>
+              </div>
+
+              <div
+              onClick={() => {this.handleClick('eat')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'eat')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='eat' src={eat} alt='eat that question'/>
               </div>
 
               <div
