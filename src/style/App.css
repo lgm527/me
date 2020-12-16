@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
   grid-template-rows: repeat(1, 50px);
-  font-size: calc(1px + 2vmin);
+  font-size: calc(1px + 2.5vmin);
   color: white;
 }
 
