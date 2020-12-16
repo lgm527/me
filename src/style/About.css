@@ -16,7 +16,7 @@
 
 #bio {
   float: left;
-  font-size: calc(7px + 2vmin);
+  font-size: calc(10px + 2vmin);
   margin: 1vh 4vw;
   width: 40%;
   text-align: left;
