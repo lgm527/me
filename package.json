@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://laurellmccaffrey.com",
   "dependencies": {
-    "emailjs-com": "^2.4.0",
-    "gh-pages": "^2.1.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "emailjs-com": "^2.6.4",
+    "gh-pages": "^2.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-scripts": "3.2.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "predeploy": "npm run build",

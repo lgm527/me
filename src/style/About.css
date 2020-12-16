@@ -23,8 +23,6 @@
   overflow: auto;
   overflow-y: auto;
   max-height: 60vh;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: 500;
 }
 
 @media only screen and (max-width: 600px) {
