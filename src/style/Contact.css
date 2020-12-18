@@ -12,21 +12,23 @@ input[type=text], input[type=email], textarea {
   margin-top: 1em; /* Add a top margin */
   margin-bottom: 1em; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: #e0e5e9;
+  font-family: 'Atkinson Hyperlegible';
 }
 
 input[type=text]:focus {
   outline: none;
-  box-shadow: 0 0 3px 3px white;
+  box-shadow: 0 0 3px 3px #c8d1d9;
 }
 
 input[type=email]:focus {
   outline: none;
-  box-shadow: 0 0 3px 3px white;
+  box-shadow: 0 0 3px 3px #c8d1d9;
 }
 
 textarea:focus {
   outline: none;
-  box-shadow: 0 0 3px 3px white;
+  box-shadow: 0 0 3px 3px #c8d1d9;
 }
 
 label {
@@ -35,8 +37,8 @@ label {
 
 input[type=submit] {
   background: none;
-  color: white;
-  border: 5px solid white;
+  color: #c8d1d9;
+  border: 5px solid #c8d1d9;
   padding: 5px;
   font: inherit;
   cursor: pointer;
@@ -54,12 +56,12 @@ input[type=submit]:hover {
 
 input[type=submit]:focus {
   outline: none;
-  box-shadow: 0 0 3px 3px white;
+  box-shadow: 0 0 3px 3px #c8d1d9;
 }
 
 #anotherOne {
-  color: white;
-  border: 5px solid white;
+  color: #c8d1d9;
+  border: 5px solid #c8d1d9;
   padding: 5px;
   cursor: pointer;
   text-decoration: none;

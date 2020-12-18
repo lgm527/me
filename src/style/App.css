@@ -10,7 +10,7 @@
   grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
   grid-template-rows: repeat(1, 50px);
   font-size: calc(1px + 2.5vmin);
-  color: white;
+  color: #c8d1d9;
 }
 
 .App-header > .btn {
@@ -25,11 +25,11 @@
 }
 
 :focus > .btn_content {
-  box-shadow: 0 0 3px 3px white;
+  box-shadow: 0 0 3px 3px #c8d1d9;
 }
 
 :focus > .btn_content_reversed {
-  box-shadow: 0 0 3px 3px black;
+  box-shadow: 0 0 3px 3px #0d1117;
 }
 
 .btn:focus,
@@ -77,19 +77,18 @@
   float: right;
 }
 
-.social {
-  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
-  filter: invert(100%);
-}
-
 .social > a {
   padding: .5em;
+}
+
+.social > a > svg > path {
+  fill: #c8d1d9;
 }
 
 .name, .name:hover {
   font-size: 10vmin;
   cursor: default;
-  color: white;
+  color: #c8d1d9;
   opacity: 1;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -98,7 +97,7 @@
 #title, #title:hover {
   font-size: calc(5px + 2vmin);
   cursor: default;
-  color: white;
+  color: #c8d1d9;
   opacity: 1;
   margin-top: 0px;
   margin-bottom: 0px;

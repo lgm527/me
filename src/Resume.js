@@ -135,7 +135,7 @@ class Resume extends React.Component {
       <br></br>
       + Bachelor of Arts degrees in Art History and Psychology
       <br></br>
-      + Art History Graduation Ceremony Speaker, 3.4 GPA
+      + Art History Graduation Ceremony Speaker
       </p>
 
       <br></br>
