@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f7efc63.chunk.css",
+    "main.css": "/static/css/main.45e98ecc.chunk.css",
     "main.js": "/static/js/main.3f1b466c.chunk.js",
     "main.js.map": "/static/js/main.3f1b466c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d4cb1601.js",
@@ -8,9 +8,9 @@
     "static/js/2.9508a328.chunk.js": "/static/js/2.9508a328.chunk.js",
     "static/js/2.9508a328.chunk.js.map": "/static/js/2.9508a328.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ca6b62f1830ec3d30f57c3c62126f04.js": "/precache-manifest.8ca6b62f1830ec3d30f57c3c62126f04.js",
+    "precache-manifest.cb139126a9bfbbd98e55cedf09f99480.js": "/precache-manifest.cb139126a9bfbbd98e55cedf09f99480.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5f7efc63.chunk.css.map": "/static/css/main.5f7efc63.chunk.css.map",
+    "static/css/main.45e98ecc.chunk.css.map": "/static/css/main.45e98ecc.chunk.css.map",
     "static/media/index.css": "/static/media/Atkinson-Hyperlegible-Regular-102a.b85cc92a.woff2",
     "static/media/Laurell_McCaffrey_Resume.pdf": "/static/media/Laurell_McCaffrey_Resume.56fbce16.pdf",
     "static/media/artstagram.png": "/static/media/artstagram.63d8a1d2.png",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.d4cb1601.js",
     "static/js/2.9508a328.chunk.js",
-    "static/css/main.5f7efc63.chunk.css",
+    "static/css/main.45e98ecc.chunk.css",
     "static/js/main.3f1b466c.chunk.js"
   ]
 }
