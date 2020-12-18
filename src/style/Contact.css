@@ -12,6 +12,7 @@ input[type=text], input[type=email], textarea {
   margin-top: 1em; /* Add a top margin */
   margin-bottom: 1em; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: #e0e5e9;
 }
 
 input[type=text]:focus {
