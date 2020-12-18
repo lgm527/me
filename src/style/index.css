@@ -6,6 +6,7 @@
        url('../assets/AtkinsonHyperlegible/WOFF/Atkinson-Hyperlegible-Regular-102.woff') format('woff'), /* Pretty Modern Browsers */
        url('../assets/AtkinsonHyperlegible/TTF/Atkinson-Hyperlegible-Regular-102.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../assets/AtkinsonHyperlegible/SVG/Atkinson-Hyperlegible-Regular-102.svg#AtkinsonHyperlegible') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
        url('../assets/AtkinsonHyperlegible/WOFF/Atkinson-Hyperlegible-Italic-102.woff') format('woff'), /* Pretty Modern Browsers */
        url('../assets/AtkinsonHyperlegible/TTF/Atkinson-Hyperlegible-Italic-102.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../assets/AtkinsonHyperlegible/SVG/Atkinson-Hyperlegible-Italic-102.svg#AtkinsonHyperlegible') format('svg'); /* Legacy iOS */
+  font-display: swap;
   font-style: italic;
 }
 
@@ -27,6 +29,7 @@
        url('../assets/AtkinsonHyperlegible/WOFF/Atkinson-Hyperlegible-Bold-102.woff') format('woff'), /* Pretty Modern Browsers */
        url('../assets/AtkinsonHyperlegible/TTF/Atkinson-Hyperlegible-Bold-102.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../assets/AtkinsonHyperlegible/SVG/Atkinson-Hyperlegible-Bold-102.svg#AtkinsonHyperlegible') format('svg'); /* Legacy iOS */
+  font-display: swap;
   font-weight: bold;
 }
 
@@ -38,6 +41,7 @@
        url('../assets/AtkinsonHyperlegible/WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff') format('woff'), /* Pretty Modern Browsers */
        url('../assets/AtkinsonHyperlegible/TTF/Atkinson-Hyperlegible-BoldItalic-102.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../assets/AtkinsonHyperlegible/SVG/Atkinson-Hyperlegible-BoldItalic-102.svg#AtkinsonHyperlegible') format('svg'); /* Legacy iOS */
+  font-display: swap;
   font-weight: bold;
   font-style: italic;
 }
