@@ -41,7 +41,7 @@ class Work extends React.Component {
     } else if (project === 'gitstats') {
       this.setState({
         name: 'Git Stats',
-        description: 'Create a baseball card with GitHub Statistics.',
+        description: 'Create a baseball card with a user\'s GitHub Statistics.',
         demo: 'https://git-stats-and-octocats.netlify.app/',
         github: 'https://github.com/lgm527/git_stats_2',
         img: gitstats
@@ -72,7 +72,6 @@ class Work extends React.Component {
       <div className='container'>
 
       { this.state.show ?
-
         <div className='show'>
           <h2
           onClick={this.goBack}
@@ -105,7 +104,7 @@ class Work extends React.Component {
         </div>
         :
         <div className='projects'>
-            <div
+          <div
           onClick={() => {this.handleClick('eat')}}
           onKeyPress={(event) => {this.handleKeyPress(event, 'eat')}}
           tabIndex={0}
@@ -113,7 +112,6 @@ class Work extends React.Component {
             <img tabIndex={-1} className='btn_content' id='eat' src={eat} alt='eat that question'/>
             <h3>Eat That Question</h3>
           </div>
-
           <div
           onClick={() => {this.handleClick('tt2')}}
           onKeyPress={(event) => {this.handleKeyPress(event, 'tt2')}}
@@ -122,7 +120,6 @@ class Work extends React.Component {
             <img tabIndex={-1} className='btn_content' id='tre' src={tt2} alt='tree2'/>
             <h3>TreeTrends2.0</h3>
           </div>  
-
           <div
           onClick={() => {this.handleClick('gitstats')}}
           onKeyPress={(event) => {this.handleKeyPress(event, 'gitstats')}}
