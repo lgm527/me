@@ -34,7 +34,7 @@ class Work extends React.Component {
     if (project === 'tt2') {
       this.setState({
         name: 'TreeTrends2.0',
-        description: 'Users can locate trees on the NYC streets near them for stewardship opportunities and email the tree\'s information.',
+        description: 'Users can locate trees on the NYC streets near them for stewardship opportunities and email the tree\'s information. Inspired by my lack of interaction with trees once moving to NYC, reconnect with nature by utilizing the NYC Open Data API 2015 Street Tree Census.',
         demo: 'https://lgm527.github.io/tt2',
         github: 'https://github.com/lgm527/tt2',
         img: tt2
@@ -81,7 +81,7 @@ class Work extends React.Component {
       <div className='container'>
 
       { this.state.show ?
-      
+
         <div className='show'>
           <h2
           onClick={this.goBack}
@@ -100,14 +100,15 @@ class Work extends React.Component {
                 rel='noopener noreferrer'
                 onMouseDown={this.blurMe}
                 onClick={this.blurMe}>
-              Demo</a>
+              demo</a>
+              <span> </span>
               <a 
                 href={this.state.github} 
                 target='_blank' 
                 rel='noopener noreferrer' 
                 onMouseDown={this.blurMe} 
                 onClick={this.blurMe}>
-              Github</a>
+              github</a>
             </p>
           </div>
         </div>
