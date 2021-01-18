@@ -1,13 +1,5 @@
 import React from 'react';
 import './style/Work.css';
-import art from './assets/artstagram.png';
-import gitjobs from './assets/gitjobs.png';
-import tre from './assets/tretre.png';
-import cfs from './assets/cfs.png';
-import dad from './assets/dad.png';
-import calc from './assets/calc.png';
-import ttm from './assets/tretremobile.png';
-import gwm from './assets/gwmobileview.png';
 import tt2 from './assets/tt2.png';
 import gitstats from './assets/gitstats.png';
 import eat from './assets/eat_q.png';
@@ -15,7 +7,6 @@ import eat from './assets/eat_q.png';
 class Work extends React.Component {
 
   startingState = {
-    section: 'highlights',
     show: false,
     name: '',
     description: '',
@@ -40,69 +31,13 @@ class Work extends React.Component {
   }
 
   handleClick = (project) => {
-    if (project === 'tree'){
-      this.setState({
-        name: 'TreeTrends',
-        description: 'Users can locate trees on the NYC streets near them for stewardship opportunities as well as browse data from the 2015 NYC Street Tree Census.',
-        demo: 'https://www.youtube.com/watch?v=rEuIcwjCHzc&feature=youtu.be',
-        github: ['https://github.com/lgm527/treetrends-client', 'https://github.com/lgm527/treetrends-API'],
-        img: tre
-      })
-    } else if (project === 'tt2') {
+    if (project === 'tt2') {
       this.setState({
         name: 'TreeTrends2.0',
         description: 'Users can locate trees on the NYC streets near them for stewardship opportunities and email the tree\'s information.',
         demo: 'https://lgm527.github.io/tt2',
         github: ['https://github.com/lgm527/tt2'],
         img: tt2
-      })
-    } else if (project === 'treemobile') {
-      this.setState({
-        name: 'TreeTrends Mobile',
-        description: 'Users can locate trees on the NYC streets near them for stewardship opportunities on their mobile device and share a tree\'s information via text, email, or launching the maps application.',
-        demo: 'https://expo.io/@lgm527/tree_trends',
-        github: ['https://github.com/lgm527/tree_trends_onthego'],
-        img: ttm
-      })
-    } else if (project === 'git') {
-      this.setState({
-        name: 'GitJobs or Die Pryin',
-        description: 'Users can locate jobs postings on Github and save them to their profile with links to apply.',
-        demo: 'https://www.youtube.com/watch?v=9lX1S3DQ_bc&feature=youtu.be',
-        github: ['https://github.com/lgm527/GitJobs-client', 'https://github.com/lgm527/GitJobs_API'],
-        img: gitjobs
-      })
-    } else if (project === 'art') {
-      this.setState({
-        name: 'Artstagram',
-        description: 'User can view artwork by Van Gogh, as well as like, and leave comments.',
-        demo: 'https://www.youtube.com/watch?v=d22s48KLxHo&feature=youtu.be',
-        github: ['https://github.com/lgm527/artstagram'],
-        img: art
-      })
-    } else if  (project === 'cfs') {
-      this.setState({
-        name: 'Connect For Success',
-        description: 'Dress For Success solution to bridge the networking gap for women. Connect for Success is a connection tool used to match current DFS clients with volunteers for needs-based skills sharing, and creates a way to match women based on shared background and other parameters. Project for the LYLAS Labs Women@Work Hackathon.',
-        demo: 'https://www.youtube.com/watch?v=L2SrzwwOh-I&feature=youtu.be',
-        github: ['https://github.com/lgm527/connectforsuccess/tree/laurell'],
-        img: cfs
-      })
-    } else if (project === 'dad') {
-      this.setState({
-        name: 'Dad Jokes Please',
-        description: 'A React Native App that brings Dad Jokes straight to your phone! What more could you ask for?',
-        demo: 'https://expo.io/@lgm527/dad-jokes-please',
-        github: ['https://github.com/lgm527/dadjokesplease'],
-        img: dad
-      })
-    } else if (project === 'calc') {
-      this.setState({
-        name: 'Spooky Calculator',
-        description: 'A calculator with a spooky twist for Halloween.',
-        demo: 'https://lgm527.github.io/calc/',
-        github: ['https://github.com/lgm527/calc'],
-        img: calc
       })
     } else if (project === 'eat') {
       this.setState({
@@ -111,14 +46,6 @@ class Work extends React.Component {
         demo: 'https://eat-that-question.netlify.app/',
         github: ['https://github.com/lgm527/eat_that_question'],
         img: eat
-      })
-    } else if (project === 'gw') {
-      this.setState({
-        name: 'George Washington Tour at Fraunces Tavern Museum',
-        description: 'Users can browse a tour focusing on George Washington and his relationship with the Nation\'s first capital, New York City.',
-        demo: 'https://lgm527.github.io/gw_ftm_tour/',
-        github: ['https://github.com/lgm527/gw_ftm_tour'],
-        img: gwm
       })
     } else if (project === 'gitstats') {
       this.setState({
@@ -149,18 +76,8 @@ class Work extends React.Component {
   }
 
   blurMe = (event) => {
-    event.stopPropagation();
-    event.target.blur();
-  }
-
-  handleSection = (section) => {
-    this.setState({section: section})
-  }
-
-  handleKeyDown = (event, section) => {
-    if (event.keyCode === 32 || event.keyCode === 13) {
-      this.setState({section: section})
-    }
+    event.stopPropagation()
+    event.target.blur()
   }
 
   render(){
@@ -192,67 +109,24 @@ class Work extends React.Component {
           </div>
         </div>
         :
-        <React.Fragment>
-
-          <header className='App-header work-section'>
-          <div
-          className='btn'
-          onClick={ () => {this.handleSection('solo')} }
-          tabIndex={0}
-          onKeyDown={ (event) => {this.handleKeyDown(event, 'solo')} }>
-          <h1
-          className='btn_content'
-          tabIndex={-1}>
-          {this.state.section === 'solo' ? <u>Solo</u> : 'Solo'}
-          </h1></div>
-          <div
-          className='btn'
-          onClick={ () => {this.handleSection('highlights')} }
-          tabIndex={0}
-          onKeyDown={ (event) => {this.handleKeyDown(event, 'highlights')} }>
-          <h1
-          className='btn_content'
-          tabIndex={-1}>
-          {this.state.section === 'highlights' ? <u>Hightlights</u> : 'Hightlights'}
-          </h1></div>
-          <div
-          className='btn'
-          onClick={ () => {this.handleSection('group')} }
-          tabIndex={0}
-          onKeyDown={ (event) => {this.handleKeyDown(event, 'group')} }>
-          <h1
-          className='btn_content'
-          tabIndex={-1}>
-          {this.state.section === 'group' ? <u>Group</u> : 'Group'}
-          </h1></div>
-          </header>
-
-          {
-            this.state.section === 'highlights' ?
             <div className='projects'>
+               <div
+              onClick={() => {this.handleClick('eat')}}
+              onKeyPress={(event) => {this.handleKeyPress(event, 'eat')}}
+              tabIndex={0}
+              className='btn'>
+                <img tabIndex={-1} className='btn_content' id='eat' src={eat} alt='eat that question'/>
+                <h3>Eat That Question</h3>
+              </div>
+
               <div
               onClick={() => {this.handleClick('tt2')}}
               onKeyPress={(event) => {this.handleKeyPress(event, 'tt2')}}
               tabIndex={0}
               className='btn'>
                 <img tabIndex={-1} className='btn_content' id='tre' src={tt2} alt='tree2'/>
-              </div>
-
-              <div
-              onClick={() => {this.handleClick('tree')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'tree')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='tre' src={tre} alt='tree'/>
-              </div>
-
-              <div
-              onClick={() => {this.handleClick('treemobile')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'treemobile')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='treemobile' src={ttm} alt='treetrendsmobile'/>
-              </div>
+                <h3>TreeTrends2.0</h3>
+              </div>  
 
               <div
               onClick={() => {this.handleClick('gitstats')}}
@@ -260,72 +134,9 @@ class Work extends React.Component {
               tabIndex={0}
               className='btn'>
                 <img tabIndex={-1} className='btn_content' id='gitstats' src={gitstats} alt='gitstats'/>
+                <h3>Git Stats</h3>
               </div>
-            </div> 
-            : 
-            this.state.section === 'solo' ?
-            <div className='projects'>
-              <div
-              onClick={() => {this.handleClick('dad')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'dad')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='dad' src={dad} alt='dad jokes'/>
-              </div>
-            
-
-              <div
-              onClick={() => {this.handleClick('calc')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'calc')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='calc' src={calc} alt='calculator'/>
-              </div>
-
-              <div
-              onClick={() => {this.handleClick('eat')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'eat')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='eat' src={eat} alt='eat that question'/>
-              </div>
-
-              <div
-              onClick={() => {this.handleClick('gw')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'gw')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='gw' src={gwm} alt='gw'/>
-              </div>
-            </div> 
-            : 
-            <div className='projects'>
-              <div
-              onClick={() => {this.handleClick('git')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'git')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='git' src={gitjobs} alt='git'/>
-              </div>
-
-              <div
-              onClick={() => {this.handleClick('art')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'art')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='art' src={art} alt='art'/>
-              </div>
-
-              <div
-              onClick={() => {this.handleClick('cfs')}}
-              onKeyPress={(event) => {this.handleKeyPress(event, 'cfs')}}
-              tabIndex={0}
-              className='btn'>
-                <img tabIndex={-1} className='btn_content' id='cfs' src={cfs} alt='cfs'/>
-              </div>
-            </div>
-          }
-        </React.Fragment>       
+          </div>
       }
 
       </div>
