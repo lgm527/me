@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about'>
       <div id='bio'>
-          <p>Full stack software engineer and art nerd. If I’m not in front of a computer or piece of art, you can find me outside hiking, biking, or practicing yoga.</p>
+          <p>Full stack software engineer and art nerd. If I’m not in front of a computer or piece of art, you can find me hiking, biking, or practicing yoga.</p>
         <h3>Stack</h3>
           <p>JavaScript, TypeScript, React, React Native, Ruby, Ruby on Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, Git, SCRUM/Agile Methodology</p>
       </div>
