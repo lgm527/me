@@ -1,37 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.45e98ecc.chunk.css",
-    "main.js": "/static/js/main.3f1b466c.chunk.js",
-    "main.js.map": "/static/js/main.3f1b466c.chunk.js.map",
+    "main.css": "/static/css/main.105a8190.chunk.css",
+    "main.js": "/static/js/main.438fc75b.chunk.js",
+    "main.js.map": "/static/js/main.438fc75b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d4cb1601.js",
     "runtime-main.js.map": "/static/js/runtime-main.d4cb1601.js.map",
-    "static/js/2.9508a328.chunk.js": "/static/js/2.9508a328.chunk.js",
-    "static/js/2.9508a328.chunk.js.map": "/static/js/2.9508a328.chunk.js.map",
+    "static/js/2.c7920b17.chunk.js": "/static/js/2.c7920b17.chunk.js",
+    "static/js/2.c7920b17.chunk.js.map": "/static/js/2.c7920b17.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cb139126a9bfbbd98e55cedf09f99480.js": "/precache-manifest.cb139126a9bfbbd98e55cedf09f99480.js",
+    "precache-manifest.36ab0418951c1a6c6a7898277b6a8f6f.js": "/precache-manifest.36ab0418951c1a6c6a7898277b6a8f6f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.45e98ecc.chunk.css.map": "/static/css/main.45e98ecc.chunk.css.map",
+    "static/css/main.105a8190.chunk.css.map": "/static/css/main.105a8190.chunk.css.map",
     "static/media/index.css": "/static/media/Atkinson-Hyperlegible-Regular-102a.b85cc92a.woff2",
     "static/media/Laurell_McCaffrey_Resume.pdf": "/static/media/Laurell_McCaffrey_Resume.56fbce16.pdf",
-    "static/media/artstagram.png": "/static/media/artstagram.63d8a1d2.png",
-    "static/media/calc.png": "/static/media/calc.19f8df86.png",
-    "static/media/cfs.png": "/static/media/cfs.2d716ad6.png",
-    "static/media/dad.png": "/static/media/dad.89dbe09a.png",
     "static/media/eat_q.png": "/static/media/eat_q.1114657a.png",
     "static/media/fish.svg": "/static/media/fish.156d9d10.svg",
-    "static/media/gitjobs.png": "/static/media/gitjobs.ee0602f9.png",
     "static/media/gitstats.png": "/static/media/gitstats.a9225339.png",
-    "static/media/gwmobileview.png": "/static/media/gwmobileview.d77592d3.png",
     "static/media/headshot_lg.jpeg": "/static/media/headshot_lg.6e993e6d.jpeg",
     "static/media/headshot_m.jpeg": "/static/media/headshot_m.7dc6e482.jpeg",
-    "static/media/tretre.png": "/static/media/tretre.1f2c836c.png",
-    "static/media/tretremobile.png": "/static/media/tretremobile.602e51eb.png",
     "static/media/tt2.png": "/static/media/tt2.7af63a8c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d4cb1601.js",
-    "static/js/2.9508a328.chunk.js",
-    "static/css/main.45e98ecc.chunk.css",
-    "static/js/main.3f1b466c.chunk.js"
+    "static/js/2.c7920b17.chunk.js",
+    "static/css/main.105a8190.chunk.css",
+    "static/js/main.438fc75b.chunk.js"
   ]
 }

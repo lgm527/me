@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3174da38018c60faee8e587cddbf8bc2",
+    "revision": "54734c07f2e36a807442a77bcd3e41fe",
     "url": "/index.html"
   },
   {
-    "revision": "8b753951f8cef8454ede",
-    "url": "/static/css/main.45e98ecc.chunk.css"
+    "revision": "9ace7ef1bde755f4b497",
+    "url": "/static/css/main.105a8190.chunk.css"
   },
   {
-    "revision": "66ef6b466ed1edf1ba7b",
-    "url": "/static/js/2.9508a328.chunk.js"
+    "revision": "6bcbfbcb5c656c8e78d5",
+    "url": "/static/js/2.c7920b17.chunk.js"
   },
   {
-    "revision": "8b753951f8cef8454ede",
-    "url": "/static/js/main.3f1b466c.chunk.js"
+    "revision": "9ace7ef1bde755f4b497",
+    "url": "/static/js/main.438fc75b.chunk.js"
   },
   {
     "revision": "2f105c8c42093b824d78",
@@ -104,22 +104,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Laurell_McCaffrey_Resume.56fbce16.pdf"
   },
   {
-    "revision": "63d8a1d24d953b10d42887e8ba48483c",
-    "url": "/static/media/artstagram.63d8a1d2.png"
-  },
-  {
-    "revision": "19f8df86b4a1a9ce07068f8d6b6327ba",
-    "url": "/static/media/calc.19f8df86.png"
-  },
-  {
-    "revision": "2d716ad6861500e3c105a7ee10e5c15e",
-    "url": "/static/media/cfs.2d716ad6.png"
-  },
-  {
-    "revision": "89dbe09a3a6dab0e16016d95c58889b2",
-    "url": "/static/media/dad.89dbe09a.png"
-  },
-  {
     "revision": "1114657a11cd81fdc6b254a8a007600a",
     "url": "/static/media/eat_q.1114657a.png"
   },
@@ -128,16 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fish.156d9d10.svg"
   },
   {
-    "revision": "ee0602f94562111b7e685dd50044d9e1",
-    "url": "/static/media/gitjobs.ee0602f9.png"
-  },
-  {
     "revision": "a92253393199bec5199e619e681e8bab",
     "url": "/static/media/gitstats.a9225339.png"
-  },
-  {
-    "revision": "d77592d3d374d0c6f3ddae0f74b1bfa1",
-    "url": "/static/media/gwmobileview.d77592d3.png"
   },
   {
     "revision": "6e993e6d1abba78f5de22ceb5c15dd9e",
@@ -146,14 +122,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7dc6e48291a1196da9395e36969205a2",
     "url": "/static/media/headshot_m.7dc6e482.jpeg"
-  },
-  {
-    "revision": "1f2c836cf87debd03adfee217a9d1085",
-    "url": "/static/media/tretre.1f2c836c.png"
-  },
-  {
-    "revision": "602e51eb74562c137c5d7d7a1e8b9986",
-    "url": "/static/media/tretremobile.602e51eb.png"
   },
   {
     "revision": "7af63a8c91e4344297601373287066e1",
