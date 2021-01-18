@@ -83,7 +83,6 @@ class Work extends React.Component {
           </h2>
           <div id='showText'>
             <h2>{this.state.name}</h2>
-            <p key='description'><i>{this.state.description}</i></p>
             <p key='links'>
               <a
                 href={this.state.demo}
@@ -91,7 +90,7 @@ class Work extends React.Component {
                 rel='noopener noreferrer'
                 onMouseDown={this.blurMe}
                 onClick={this.blurMe}>
-              demo</a>
+              Demo</a>
               <span> </span>
               <a 
                 href={this.state.github} 
@@ -99,8 +98,9 @@ class Work extends React.Component {
                 rel='noopener noreferrer' 
                 onMouseDown={this.blurMe} 
                 onClick={this.blurMe}>
-              github</a>
+              Github</a>
             </p>
+            <p key='description'><i>{this.state.description}</i></p>
           </div>
         </div>
         :
