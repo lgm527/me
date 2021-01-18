@@ -97,7 +97,7 @@ class Work extends React.Component {
                 rel='noopener noreferrer' 
                 onMouseDown={this.blurMe} 
                 onClick={this.blurMe}>
-              Github</a>
+              Code</a>
             </p>
             <p key='description'><i>{this.state.description}</i></p>
           </div>
