@@ -18,16 +18,7 @@ class Work extends React.Component {
   state = this.startingState
 
   goBack = () => {
-    this.setState(
-      {
-        show: false,
-        name: '',
-        description: '',
-        demo: '',
-        github: [],
-        img: ''
-      }
-    )
+    this.setState(this.startingState)
   }
 
   handleClick = (project) => {
