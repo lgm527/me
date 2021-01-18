@@ -5,16 +5,16 @@
 .projects {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(325px, 1fr));
   grid-template-rows: repeat(1, 250px);
   margin: 10vh 0;
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 900px) {
 .projects {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-template-rows: repeat(1, 150px);
   margin: 10vh 0;
   }
@@ -24,7 +24,7 @@
   .projects {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(3, minmax(80px, 1fr));
     grid-template-rows: repeat(1, 80px);
     margin: 10vh 0;
   }
@@ -48,10 +48,6 @@
 .projects > div > img:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
-}
-
-#tre {
-  object-position: 70%;
 }
 
 .show {
