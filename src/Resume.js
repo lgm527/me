@@ -19,12 +19,18 @@ class Resume extends React.Component {
 
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      React, Redux, React Native, JavaScript, TypeScript, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Docker, HTML, CSS/SASS, SCRUM/Agile Methodology
+      React, Redux, React Native, JavaScript, TypeScript, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Terraform, Docker, HTML, CSS/SASS, SCRUM/Agile Methodology
       <br></br><br></br>
       </p>
 
       <h2>EMPLOYMENT HISTORY</h2>
       <p>
+      <b>Foresight Technologies</b>
+      <br></br>
+      Cloud Engineer, January 2021 - Present
+      <br></br>
+      + Implement world-class solutions while providing a great client experience utilizing tools like AWS and Docker
+      <br></br><br></br>
       <b>The Muse</b>, New York, New York
       <br></br>
       Full Stack Engineer, February 2020 - March 2020 <span id='covid'>(COVID-19)</span>
