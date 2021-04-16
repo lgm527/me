@@ -99,7 +99,7 @@ class App extends React.Component {
         </div>
 
         <div id='allMe'>
-          <h2 id='title'>Full Stack Engineer</h2>
+          <h2 id='title'>Cloud Engineer</h2>
           <h1 className='name'>Laurell</h1>
           <h1 className='name'>McCaffrey</h1>
           <p id='copy'>© Laurell McCaffrey {year.getFullYear()}</p>

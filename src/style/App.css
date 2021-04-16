@@ -90,8 +90,8 @@
   cursor: default;
   color: #c8d1d9;
   opacity: 1;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -8px;
+  margin-bottom: -10px;
 }
 
 #title, #title:hover {
@@ -99,8 +99,8 @@
   cursor: default;
   color: #c8d1d9;
   opacity: 1;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 3px;
+  margin-bottom: -6px;
 }
 
 #copy {
