@@ -12,24 +12,30 @@ class Resume extends React.Component {
       <br></br>
 
       <p>
-        Full stack software engineer with experience in JavaScript/TypeScript, React/Redux, and Ruby on Rails.
+        Cloud engineer with experience in AWS, TypeScript, Terraform, Python, and Docker.
         <br></br>
         Strong research, communication, and writing skills that support a high level of productivity and collaboration.
       </p>
 
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      React, Redux, React Native, JavaScript, TypeScript, Ruby, Rails, Python, SQL, PostgreSQL, AWS, Terraform, Docker, HTML, CSS/SASS, SCRUM/Agile Methodology
+      AWS, Terraform, Python, Docker, TypeScript, React, Redux, React Native, JavaScript, Ruby, Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology
       <br></br><br></br>
       </p>
 
       <h2>EMPLOYMENT HISTORY</h2>
       <p>
-      <b>Foresight Technologies</b>
+      <b>Foresight Technologies</b>, Philadelphia, Pennsylvania
       <br></br>
-      Cloud Engineer, January 2021 - Present
+      Cloud Engineer II, July 2021 - Present
       <br></br>
-      + Implement world-class solutions while providing a great client experience utilizing tools like AWS and Docker
+      Cloud Engineer, January 2021 - July 2021
+      <br></br>
+      + Design and Implement world-class solutions while providing a great client experience utilizing tools like AWS and Docker
+      <br></br>
+      + Provide support through faciliating meetings, providing mentorship, and onboarding new engineers
+      {/* <br></br>
+      +  */}
       <br></br><br></br>
       <b>The Muse</b>, New York, New York
       <br></br>
@@ -115,6 +121,28 @@ class Resume extends React.Component {
       <br></br><br></br>
       </p>
 
+      <h2>CERTIFICATIONS</h2>
+      <p>
+      <b>Amazon Web Services (AWS)</b> 2021 - 2024
+      <br></br>
+      + Developer Associate
+      <br></br>
+      + ID: KL1HBKDBNE111CSL
+      </p>
+
+      <h2>EDUCATION</h2>
+      <p>
+      <b>Flatiron School</b>, Brooklyn, New York - 2019
+      <br></br>
+      + Immersive Full Stack Web Development, Ruby on Rails and JavaScript program
+      <br></br><br></br>
+      <b>Rutgers University</b> - New Brunswick, New Jersey - 2016
+      <br></br>
+      + Bachelor of Arts degrees in Art History and Psychology
+      <br></br>
+      + Art History Graduation Ceremony Speaker
+      </p>
+
       <h2>VOLUNTEER</h2>
       <p>
       <b>Pods.nyc</b>, New York, New York
@@ -129,19 +157,6 @@ class Resume extends React.Component {
       Docent, December 2016 - March 2020
       <br></br>
       + Bring the rich history of New York City during the Revolutionary War to life leading weekly tours
-      </p>
-
-      <h2>EDUCATION</h2>
-      <p>
-      <b>Flatiron School</b>, Brooklyn, New York - 2019
-      <br></br>
-      + Immersive Full Stack Web Development, Ruby on Rails and JavaScript program
-      <br></br><br></br>
-      <b>Rutgers University</b> - New Brunswick, New Jersey - 2016
-      <br></br>
-      + Bachelor of Arts degrees in Art History and Psychology
-      <br></br>
-      + Art History Graduation Ceremony Speaker
       </p>
 
       <br></br>
