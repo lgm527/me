@@ -33,7 +33,7 @@ class Resume extends React.Component {
       <br></br>
       + Design and Implement world-class solutions while providing a great client experience utilizing tools like AWS and Docker
       <br></br>
-      + Provide support through faciliating meetings, providing mentorship, and onboarding new engineers
+      + Provide support through facilitating meetings, providing mentorship, and onboarding new engineers
       {/* <br></br>
       +  */}
       <br></br><br></br>
