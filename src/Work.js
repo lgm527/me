@@ -2,7 +2,6 @@ import React from 'react';
 import './style/Work.css';
 import tt2 from './assets/tt2.png';
 import gitstats from './assets/gitstats.png';
-// import eat from './assets/eat_q.png';
 import dad from './assets/dad.png';
 
 class Work extends React.Component {
@@ -31,14 +30,6 @@ class Work extends React.Component {
         github: 'https://github.com/lgm527/tt2',
         img: tt2
       })
-    // } else if (project === 'eat') {
-    //   this.setState({
-    //     name: 'Eat That Question',
-    //     description: 'A timed trivia game to test your knowledge of Frank Zappa lyrics.',
-    //     demo: 'https://eat-that-question.netlify.app/',
-    //     github: 'https://github.com/lgm527/eat_that_question',
-    //     img: eat
-    //   })
     } else if (project === 'dad') {
       this.setState({
         name: 'Dad Jokes Please',
