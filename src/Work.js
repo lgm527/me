@@ -2,7 +2,7 @@ import React from 'react';
 import './style/Work.css';
 import tt2 from './assets/tt2.png';
 import gitstats from './assets/gitstats.png';
-import eat from './assets/eat_q.png';
+import dad from './assets/dad.png';
 
 class Work extends React.Component {
 
@@ -30,13 +30,13 @@ class Work extends React.Component {
         github: 'https://github.com/lgm527/tt2',
         img: tt2
       })
-    } else if (project === 'eat') {
+    } else if (project === 'dad') {
       this.setState({
-        name: 'Eat That Question',
-        description: 'A timed trivia game to test your knowledge of Frank Zappa lyrics.',
-        demo: 'https://eat-that-question.netlify.app/',
-        github: 'https://github.com/lgm527/eat_that_question',
-        img: eat
+        name: 'Dad Jokes Please',
+        description: 'Infinite dad jokes on the ready.',
+        demo: 'https://dad-jokes-please.netlify.app/',
+        github: 'https://github.com/lgm527/dadjokespls',
+        img: dad
       })
     } else if (project === 'gitstats') {
       this.setState({
@@ -105,14 +105,6 @@ class Work extends React.Component {
         :
         <div className='projects'>
           <div
-          onClick={() => {this.handleClick('eat')}}
-          onKeyPress={(event) => {this.handleKeyPress(event, 'eat')}}
-          tabIndex={0}
-          className='btn'>
-            <img tabIndex={-1} className='btn_content' id='eat' src={eat} alt='eat that question'/>
-            <h3>Eat That Question</h3>
-          </div>
-          <div
           onClick={() => {this.handleClick('tt2')}}
           onKeyPress={(event) => {this.handleKeyPress(event, 'tt2')}}
           tabIndex={0}
@@ -120,6 +112,14 @@ class Work extends React.Component {
             <img tabIndex={-1} className='btn_content' id='tre' src={tt2} alt='tree2'/>
             <h3>TreeTrends2.0</h3>
           </div>  
+          <div
+          onClick={() => {this.handleClick('dad')}}
+          onKeyPress={(event) => {this.handleKeyPress(event, 'dad')}}
+          tabIndex={0}
+          className='btn'>
+            <img tabIndex={-1} className='btn_content' id='dad' src={dad} alt='dad jokes'/>
+            <h3>Dad Jokes</h3>
+          </div>
           <div
           onClick={() => {this.handleClick('gitstats')}}
           onKeyPress={(event) => {this.handleKeyPress(event, 'gitstats')}}
