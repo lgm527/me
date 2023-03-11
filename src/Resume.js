@@ -8,11 +8,11 @@ class Resume extends React.Component {
     return (
       <div className='resume'>
 
-      <h1><a id='download' href={resume} download>Download</a></h1>
-      <br></br>
+      {/* <h1><a id='download' href={resume} download>Download</a></h1>
+      <br></br> */}
 
       <p>
-        Cloud engineer with experience in AWS, TypeScript, Terraform, Python, and Docker.
+        Cloud engineer with experience in AWS, TypeScript, Terraform, CDK, Python, and Docker.
         <br></br>
         Strong research, communication, and writing skills that support a high level of productivity and collaboration.
       </p>
@@ -27,19 +27,19 @@ class Resume extends React.Component {
       <p>
       <b>Foresight Technologies</b>, Philadelphia, Pennsylvania
       <br></br>
-      Cloud Engineer II, July 2021 - Present
+      Senior Cloud Engineer, July 2022 - Present
+      <br></br>
+      Cloud Engineer II, July 2021 - July 2022
       <br></br>
       Cloud Engineer, January 2021 - July 2021
       <br></br>
-      + Design and Implement world-class solutions while providing a great client experience utilizing tools like AWS and Docker
+      + Design and Implement world-class solutions while providing a great client experience utilizing tools like AWS, Docker, and Infrastructure as Code
       <br></br>
       + Provide support through facilitating meetings, providing mentorship, and onboarding new engineers
-      {/* <br></br>
-      +  */}
       <br></br><br></br>
       <b>The Muse</b>, New York, New York
       <br></br>
-      Full Stack Engineer, February 2020 - March 2020 <span id='covid'>(COVID-19)</span>
+      Full Stack Engineer, February 2020 - April 2020 <span id='covid'>(COVID-19)</span>
       <br></br>
       + Collaborated with product managers, designers, and engineers to implement website functionality that increased candidate application rate
       <br></br>
@@ -123,6 +123,13 @@ class Resume extends React.Component {
 
       <h2>CERTIFICATIONS</h2>
       <p>
+      <b>Amazon Web Services (AWS)</b> 2022 - 2025
+      <br></br>
+      + DevOps Engineer Professional
+      <br></br>
+      + ID: 1NPVQP42YB4QQ8CJ
+      </p>
+      <p>
       <b>Amazon Web Services (AWS)</b> 2021 - 2024
       <br></br>
       + Developer Associate
@@ -159,8 +166,8 @@ class Resume extends React.Component {
       + Bring the rich history of New York City during the Revolutionary War to life leading weekly tours
       </p>
 
-      <br></br>
-      <h1><a id='download' href='https://github.com/lgm527/resume.json/blob/master/LGMresume.json' target='_blank' rel='noopener noreferrer'>View JSON</a></h1>
+      {/* <br></br>
+      <h1><a id='download' href='https://github.com/lgm527/resume.json/blob/master/LGMresume.json' target='_blank' rel='noopener noreferrer'>View JSON</a></h1> */}
 
       </div>
     )

@@ -9,7 +9,7 @@ function About() {
       <div id='bio'>
           <p>Cloud engineer and art nerd. If I’m not in front of a computer or piece of art, you can find me hiking, biking, or practicing yoga.</p>
         <h3>Stack</h3>
-          <p>AWS, Terraform, Python, Docker, JavaScript, TypeScript, React, React Native, Ruby, Ruby on Rails, SQL, PostgreSQL, HTML, CSS/SASS, Git, SCRUM/Agile Methodology</p>
+          <p>AWS, Terraform, CDK, Python, Docker, TypeScript, React, React Native, Ruby on Rails, SQL, PostgreSQL, HTML, CSS/SASS, Git, SCRUM/Agile Methodology</p>
       </div>
       <img
       id='me'
