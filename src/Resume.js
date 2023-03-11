@@ -39,7 +39,7 @@ class Resume extends React.Component {
       <br></br><br></br>
       <b>The Muse</b>, New York, New York
       <br></br>
-      Full Stack Engineer, February 2020 - March 2020 <span id='covid'>(COVID-19)</span>
+      Full Stack Engineer, February 2020 - April 2020 <span id='covid'>(COVID-19)</span>
       <br></br>
       + Collaborated with product managers, designers, and engineers to implement website functionality that increased candidate application rate
       <br></br>
@@ -122,6 +122,13 @@ class Resume extends React.Component {
       </p>
 
       <h2>CERTIFICATIONS</h2>
+      <p>
+      <b>Amazon Web Services (AWS)</b> 2022 - 2025
+      <br></br>
+      + DevOps Engineer Professional
+      <br></br>
+      + ID: 1NPVQP42YB4QQ8CJ
+      </p>
       <p>
       <b>Amazon Web Services (AWS)</b> 2021 - 2024
       <br></br>
