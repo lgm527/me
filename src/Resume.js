@@ -8,8 +8,8 @@ class Resume extends React.Component {
     return (
       <div className='resume'>
 
-      <h1><a id='download' href={resume} download>Download</a></h1>
-      <br></br>
+      {/* <h1><a id='download' href={resume} download>Download</a></h1>
+      <br></br> */}
 
       <p>
         Cloud engineer with experience in AWS, TypeScript, Terraform, CDK, Python, and Docker.
@@ -166,8 +166,8 @@ class Resume extends React.Component {
       + Bring the rich history of New York City during the Revolutionary War to life leading weekly tours
       </p>
 
-      <br></br>
-      <h1><a id='download' href='https://github.com/lgm527/resume.json/blob/master/LGMresume.json' target='_blank' rel='noopener noreferrer'>View JSON</a></h1>
+      {/* <br></br>
+      <h1><a id='download' href='https://github.com/lgm527/resume.json/blob/master/LGMresume.json' target='_blank' rel='noopener noreferrer'>View JSON</a></h1> */}
 
       </div>
     )
