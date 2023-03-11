@@ -12,7 +12,7 @@ class Resume extends React.Component {
       <br></br>
 
       <p>
-        Cloud engineer with experience in AWS, TypeScript, Terraform, Python, and Docker.
+        Cloud engineer with experience in AWS, TypeScript, Terraform, CDK, Python, and Docker.
         <br></br>
         Strong research, communication, and writing skills that support a high level of productivity and collaboration.
       </p>
@@ -27,15 +27,15 @@ class Resume extends React.Component {
       <p>
       <b>Foresight Technologies</b>, Philadelphia, Pennsylvania
       <br></br>
-      Cloud Engineer II, July 2021 - Present
+      Senior Cloud Engineer, July 2022 - Present
+      <br></br>
+      Cloud Engineer II, July 2021 - July 2022
       <br></br>
       Cloud Engineer, January 2021 - July 2021
       <br></br>
-      + Design and Implement world-class solutions while providing a great client experience utilizing tools like AWS and Docker
+      + Design and Implement world-class solutions while providing a great client experience utilizing tools like AWS, Docker, and Infrastructure as Code
       <br></br>
       + Provide support through facilitating meetings, providing mentorship, and onboarding new engineers
-      {/* <br></br>
-      +  */}
       <br></br><br></br>
       <b>The Muse</b>, New York, New York
       <br></br>
