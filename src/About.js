@@ -10,7 +10,7 @@ function About() {
       <h3>Software Engineer</h3>
           <p>If I’m not in front of a computer or piece of art, you can find me hiking, biking, or practicing yoga.</p>
         <h3>Tech Stack</h3>
-          <p>AWS, Azure, GCP, Terraform, Pulumi, Docker, Python, Go, TypeScript, React/React Native, JavaScript, Ruby/Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology</p>
+          <p>AWS, Azure, GCP, Terraform, Pulumi, CDK, Docker, Python, Go, TypeScript, React/React Native, JavaScript, Ruby/Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology</p>
       </div>
       <img
       id='me'

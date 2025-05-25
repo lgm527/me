@@ -8,14 +8,14 @@ class Resume extends React.Component {
       <div className='resume'>
 
       <p>
-        Software engineer with experience in Cloud Infrastructure (Architecture & Design), Web Application Programming (Migration & Modernization), and DevOps.
+        Software engineer with experience in the Architecture, Design, Migration, and Modernization of Cloud Infrastructure, Web Applications, and Data Pipelines with a focus on DevOps.
         <br></br>
         Strong research, communication, and writing skills that support a high level of productivity and collaboration.
       </p>
 
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      AWS, Azure, GCP, Terraform, Pulumi, Python, Docker, Go, TypeScript, React, React Native, JavaScript, Ruby, Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology
+      AWS, Azure, GCP, Terraform, Pulumi, CDK, Python, Docker, Go, TypeScript, React, React Native, JavaScript, Ruby, Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology
       <br></br><br></br>
       </p>
 
