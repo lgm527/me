@@ -15,7 +15,7 @@ class Resume extends React.Component {
 
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      AWS, Azure, GCP, Terraform, Pulumi, CDK, Python, Docker, Go, TypeScript, React, React Native, JavaScript, Ruby, Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology
+      AWS, Azure, GCP, Terraform, Pulumi, CDK, Docker, Python, Go, TypeScript/JavaScript, React/React Native, Ruby/Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology
       <br></br><br></br>
       </p>
 
