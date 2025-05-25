@@ -1,6 +1,5 @@
 import React from 'react';
 import './style/Resume.css';
-import resume from './assets/Laurell_McCaffrey_Resume.pdf';
 
 class Resume extends React.Component {
 
@@ -8,18 +7,15 @@ class Resume extends React.Component {
     return (
       <div className='resume'>
 
-      {/* <h1><a id='download' href={resume} download>Download</a></h1>
-      <br></br> */}
-
       <p>
-        Cloud engineer with experience in AWS, TypeScript, Terraform, CDK, Python, and Docker.
+        Software engineer with experience in Cloud Infrastructure, Web Application Programming, and DevOps.
         <br></br>
         Strong research, communication, and writing skills that support a high level of productivity and collaboration.
       </p>
 
       <h2>TECHNICAL SKILLS</h2>
       <p>
-      AWS, Terraform, Python, Docker, TypeScript, React, Redux, React Native, JavaScript, Ruby, Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology
+      AWS, Azure, GCP, Terraform, Pulumi, Python, Docker, Go, TypeScript, React, React Native, JavaScript, Ruby, Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology
       <br></br><br></br>
       </p>
 

@@ -7,9 +7,10 @@ function About() {
   return (
     <div className='about'>
       <div id='bio'>
-          <p>Cloud engineer and art nerd. If I’m not in front of a computer or piece of art, you can find me hiking, biking, or practicing yoga.</p>
-        <h3>Stack</h3>
-          <p>AWS, Terraform, CDK, Python, Docker, TypeScript, React, React Native, Ruby on Rails, SQL, PostgreSQL, HTML, CSS/SASS, Git, SCRUM/Agile Methodology</p>
+      <h3>Software Engineer</h3>
+          <p>If I’m not in front of a computer or piece of art, you can find me hiking, biking, or practicing yoga.</p>
+        <h3>Tech Stack</h3>
+          <p>AWS, Azure, GCP, Terraform, Pulumi, Docker, Python, Go, TypeScript, React/React Native, JavaScript, Ruby/Rails, SQL, PostgreSQL, HTML, CSS/SASS, SCRUM/Agile Methodology</p>
       </div>
       <img
       id='me'
