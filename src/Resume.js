@@ -8,7 +8,7 @@ class Resume extends React.Component {
       <div className='resume'>
 
       <p>
-        Software engineer with experience in Cloud Infrastructure, Web Application Programming, and DevOps.
+        Software engineer with experience in Cloud Infrastructure (Architecture & Design), Web Application Programming (Migration & Modernization), and DevOps.
         <br></br>
         Strong research, communication, and writing skills that support a high level of productivity and collaboration.
       </p>
