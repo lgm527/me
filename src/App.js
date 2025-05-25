@@ -82,7 +82,6 @@ class App extends React.Component {
         </div>
 
         <div id='allMe'>
-          <h2 id='title'>Cloud Engineer</h2>
           <h1 className='name'>Laurell</h1>
           <h1 className='name'>Bissell</h1>
           <p>laurellbissell@gmail.com</p>
