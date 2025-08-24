@@ -1,6 +1,5 @@
 import React from 'react';
 import './style/App.css';
-import Work from './Work';
 import About from './About';
 import Resume from './Resume';
 
@@ -41,18 +40,6 @@ class App extends React.Component {
           </h1></div>
           <div
           className='btn'
-          aria-label='work'
-          role='button'
-          onClick={ () => {this.handleClick('work')} }
-          tabIndex={0}
-          onKeyDown={ (event) => {this.handleKeyDown(event, 'work')} }>
-          <h1
-          className='btn_content'
-          tabIndex={-1}>
-          {this.state.show === 'work' ? <u>Work</u> : 'Work'}
-          </h1></div>
-          <div
-          className='btn'
           aria-label='resume'
           role='button'
           onClick={ () => {this.handleClick('resume')} }
@@ -67,7 +54,6 @@ class App extends React.Component {
 
         <div className='stuff'>
           {this.state.show === 'about' ? <About /> : null}
-          {this.state.show === 'work' ? <Work /> : null}
           {this.state.show === 'resume' ? <Resume /> : null}
         </div>
 
