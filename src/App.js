@@ -1,7 +1,6 @@
 import React from "react";
 import "./style/App.css";
 import About from "./About";
-import Resume from "./Resume";
 
 class App extends React.Component {
   state = {
@@ -22,44 +21,9 @@ class App extends React.Component {
     const year = new Date();
     return (
       <div className="App">
-        <header className="App-header">
-          <div
-            className="btn"
-            aria-label="about"
-            role="button"
-            onClick={() => {
-              this.handleClick("about");
-            }}
-            tabIndex={0}
-            onKeyDown={(event) => {
-              this.handleKeyDown(event, "about");
-            }}
-          >
-            <h1 className="btn_content" tabIndex={-1}>
-              {this.state.show === "about" ? <u>About</u> : "About"}
-            </h1>
-          </div>
-          <div
-            className="btn"
-            aria-label="resume"
-            role="button"
-            onClick={() => {
-              this.handleClick("resume");
-            }}
-            tabIndex={0}
-            onKeyDown={(event) => {
-              this.handleKeyDown(event, "resume");
-            }}
-          >
-            <h1 className="btn_content" tabIndex={-1}>
-              {this.state.show === "resume" ? <u>Resume</u> : "Resume"}
-            </h1>
-          </div>
-        </header>
 
         <div className="stuff">
-          {this.state.show === "about" ? <About /> : null}
-          {this.state.show === "resume" ? <Resume /> : null}
+          <About />
         </div>
 
         <footer className="App-footer">
