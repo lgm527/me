@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b8a7bf7.css",
-    "main.js": "/static/js/main.a1f615b4.js",
+    "main.js": "/static/js/main.632bfa6b.js",
     "static/media/Atkinson-Hyperlegible-BoldItalic-102.svg": "/static/media/Atkinson-Hyperlegible-BoldItalic-102.99815c8e5a99d48f1c11.svg",
     "static/media/Atkinson-Hyperlegible-Bold-102.svg": "/static/media/Atkinson-Hyperlegible-Bold-102.4c1ab16be65eb909f0a1.svg",
     "static/media/Atkinson-Hyperlegible-Italic-102.svg": "/static/media/Atkinson-Hyperlegible-Italic-102.86e05ee43ed62ca30567.svg",
@@ -26,10 +26,10 @@
     "static/media/Atkinson-Hyperlegible-Regular-102a.woff2": "/static/media/Atkinson-Hyperlegible-Regular-102a.7572a7a55ffff1170d86.woff2",
     "index.html": "/index.html",
     "main.8b8a7bf7.css.map": "/static/css/main.8b8a7bf7.css.map",
-    "main.a1f615b4.js.map": "/static/js/main.a1f615b4.js.map"
+    "main.632bfa6b.js.map": "/static/js/main.632bfa6b.js.map"
   },
   "entrypoints": [
     "static/css/main.8b8a7bf7.css",
-    "static/js/main.a1f615b4.js"
+    "static/js/main.632bfa6b.js"
   ]
 }
